@@ -1,7 +1,7 @@
 import Tasks, { userInput} from "./TaskList.js";
 import { newTasks } from "./DisplayTask.js";
 
-const addList = (e) => {
+const addItems = (e) => {
     const todo = new Tasks(userInput.value, false, newTasks.tasks.length + 1);
     if (userInput.value === '') {
         e.preventDefault();
@@ -11,4 +11,4 @@ const addList = (e) => {
     return todo;
 };
 
-export default addList;
+export default addItems;
