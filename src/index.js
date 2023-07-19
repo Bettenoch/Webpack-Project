@@ -1,6 +1,6 @@
 import './styles/index.css';
-import addList from './modules/AddTask.js';
-import { newTasks } from './modules/DisplayTask';
+import addItems from './modules/AddTask.js';
+import { newTasks } from './modules/DisplayTask.js';
 
 import { addItem, userInput, taskField } from './modules/TaskList.js';
 import { fetchItems, store } from './modules/LocalStorage.js';
@@ -10,8 +10,8 @@ userInput.addEventListener('keypress', (event) => {
       if (userInput.value === '') {
         event.preventDefault();
       } else {
-        const todo = addList(event);
-        newTasks.addList(todo);
+        const todo = addItems(event);
+        newTasks.addItems(todo);
         newTasks.initialize();
         store();
         newTasks.displayTask();
@@ -23,8 +23,8 @@ userInput.addEventListener('keypress', (event) => {
     if (userInput.value === '') {
       e.preventDefault();
     } else {
-        const todo = addList(e);
-        newTasks.addList(todo);
+        const todo = addItems(e);
+        newTasks.addItems(todo);
         newTasks.initialize();
         store();
         newTasks.displayTask();
