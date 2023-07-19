@@ -58,7 +58,12 @@ module.exports = {
             filename: 'index.html',
             template:  'src/template.html'
         }),
-        new BundleAnalyzerPlugin(),
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'disabled',
+            generateStatsFile: true,
+            // Excludes module sources from stats file so there won't be any sensitive data
+            statsOptions: { source: false }
+        }),
     ]
 
 }
