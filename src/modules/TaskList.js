@@ -8,4 +8,4 @@ export default class Tasks {
 export const addItem = document.getElementById('addBtn');
 export const clearTask = document.querySelector('.clear-completed');
 export const userInput = document.getElementById('task-input');
-export const taskField = document.getElementById('todo-list-items')
+export const taskField = document.getElementById('todo-list-items');
