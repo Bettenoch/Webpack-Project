@@ -2,7 +2,7 @@ import './styles/index.css';
 import addList from './modules/AddTask.js';
 import { newTasks } from './modules/DisplayTask';
 
-import { addItem, clearTask, userInput, taskField } from './modules/TaskList.js';
+import { addItem, userInput, taskField } from './modules/TaskList.js';
 import { fetchItems, store } from './modules/LocalStorage.js';
 
 userInput.addEventListener('keypress', (event) => {
