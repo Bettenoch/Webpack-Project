@@ -3,7 +3,7 @@ import './styles/index.scss';
 import addItems from './modules/AddTask.js';
 import { newTasks } from './modules/DisplayTask.js';
 
-import { addItem, userInput, taskField } from './modules/TaskList.js';
+import { userInput, taskField } from './modules/TaskList.js';
 import { fetchItems, store } from './modules/LocalStorage.js';
 
 userInput.addEventListener('keypress', (event) => {
@@ -17,18 +17,6 @@ userInput.addEventListener('keypress', (event) => {
       store();
       newTasks.displayTask();
     }
-  }
-});
-
-addItem.addEventListener('click', (e) => {
-  if (userInput.value === '') {
-    e.preventDefault();
-  } else {
-    const todo = addItems(e);
-    newTasks.addItems(todo);
-    newTasks.initialize();
-    store();
-    newTasks.displayTask();
   }
 });
 
