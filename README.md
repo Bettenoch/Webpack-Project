@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Book] <a name="about-project"></a>
+# 📖 [TodoList Application] <a name="about-project"></a>
 
 **[Todo List App]** is a webpage for storing and displaying TODO tasks that user enters daily.
 
@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://bettenoch.github.io/Awesome-Book-Refractor/)
+- [Live Demo Link](https://bettenoch.github.io/Webpack-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
