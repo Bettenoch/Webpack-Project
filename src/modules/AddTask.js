@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import Tasks, { userInput } from './TaskList.js';
 import { newTasks } from './DisplayTask.js';
 

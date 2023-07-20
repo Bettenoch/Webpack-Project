@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import './styles/index.scss';
 import addItems from './modules/AddTask.js';
 import { newTasks } from './modules/DisplayTask.js';

@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { newTasks } from './DisplayTask.js';
 
 export const store = () => {

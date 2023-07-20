@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 export default class Tasks {
   constructor(description, completed, index) {
     this.description = description;
