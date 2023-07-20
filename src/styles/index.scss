@@ -63,27 +63,30 @@ body {
 .t-text {
   display: flex;
   justify-content: space-between;
+  padding: 0rem 3rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 1rem 3rem;
   gap: 1rem;
   border-radius: 2px;
   transition: 0.5s;
   width: 100%;
 }
-
+.form-input {
+  background: #efeded;
+  border-radius: 10px;
+  border-top: 1px solid #efecec;
+}
 .task-input {
   width: 100%;
   display: flex;
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 1rem 3rem;
   outline: none;
   border: none;
-  background: #efeded;
+  font-style: italic;
 }
 
 .btn-holder {

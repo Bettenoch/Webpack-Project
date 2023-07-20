@@ -1,32 +1,32 @@
 {
-  "hash": "fe7129463e3ab22a919d",
+  "hash": "892438f219642639d54f",
   "version": "5.88.1",
-  "time": 257,
-  "builtAt": 1689869634013,
+  "time": 331,
+  "builtAt": 1689870447931,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle4103ed8a6186239a5ec0.js",
-      "bundle.dce91af0744e3f0f0ca5.hot-update.js"
+      "bundlea9f8ab4555e4b0b271ca.js",
+      "bundle.6deda136d7884bcef35e.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle4103ed8a6186239a5ec0.js",
-      "size": 300124,
+      "name": "bundlea9f8ab4555e4b0b271ca.js",
+      "size": 300319,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "4103ed8a6186239a5ec0",
+        "contenthash": "a9f8ab4555e4b0b271ca",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle4103ed8a6186239a5ec0.js.map"
+          "sourceMap": "bundlea9f8ab4555e4b0b271ca.js.map"
         },
-        "size": 300124
+        "size": 300319
       },
       "chunkNames": [
         "bundle"
@@ -38,14 +38,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle4103ed8a6186239a5ec0.js.map",
-          "size": 343703,
+          "name": "bundlea9f8ab4555e4b0b271ca.js.map",
+          "size": 343976,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 343703
+            "size": 343976
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,19 +69,19 @@
     },
     {
       "type": "asset",
-      "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js",
-      "size": 9907,
+      "name": "bundle.6deda136d7884bcef35e.hot-update.js",
+      "size": 10102,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "dce91af0744e3f0f0ca5",
+        "fullhash": "6deda136d7884bcef35e",
         "related": {
-          "sourceMap": "bundle.dce91af0744e3f0f0ca5.hot-update.js.map"
+          "sourceMap": "bundle.6deda136d7884bcef35e.hot-update.js.map"
         },
-        "size": 9907
+        "size": 10102
       },
       "chunkNames": [
         "bundle"
@@ -93,14 +93,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js.map",
-          "size": 11340,
+          "name": "bundle.6deda136d7884bcef35e.hot-update.js.map",
+          "size": 11613,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 11340
+            "size": 11613
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -125,12 +125,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1568,
+      "size": 1688,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1568
+        "size": 1688
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -143,7 +143,7 @@
     },
     {
       "type": "asset",
-      "name": "bundle.dce91af0744e3f0f0ca5.hot-update.json",
+      "name": "bundle.6deda136d7884bcef35e.hot-update.json",
       "size": 30,
       "emitted": true,
       "comparedForEmit": false,
@@ -151,7 +151,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "dce91af0744e3f0f0ca5",
+        "fullhash": "6deda136d7884bcef35e",
         "size": 30
       },
       "chunkNames": [],
@@ -170,10 +170,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 249453,
+      "size": 249648,
       "sizes": {
         "runtime": 28044,
-        "javascript": 221409
+        "javascript": 221604
       },
       "names": [
         "bundle"
@@ -183,14 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundle4103ed8a6186239a5ec0.js",
-        "bundle.dce91af0744e3f0f0ca5.hot-update.js"
+        "bundlea9f8ab4555e4b0b271ca.js",
+        "bundle.6deda136d7884bcef35e.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundle.dce91af0744e3f0f0ca5.hot-update.js.map",
-        "bundle4103ed8a6186239a5ec0.js.map"
+        "bundle.6deda136d7884bcef35e.hot-update.js.map",
+        "bundlea9f8ab4555e4b0b271ca.js.map"
       ],
-      "hash": "678e59063b4e34f25a5e",
+      "hash": "ee6e70380fc22ed5dd34",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -391,9 +391,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 7918,
+          "size": 8113,
           "sizes": {
-            "javascript": 7918
+            "javascript": 8113
           },
           "built": true,
           "codeGenerated": true,
@@ -4046,20 +4046,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "bundle"
           ],
@@ -5553,20 +5553,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "bundle"
       ],
@@ -9109,9 +9109,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 7918,
+      "size": 8113,
       "sizes": {
-        "javascript": 7918
+        "javascript": 8113
       },
       "built": true,
       "codeGenerated": true,
@@ -10466,28 +10466,28 @@
       ],
       "assets": [
         {
-          "name": "bundle4103ed8a6186239a5ec0.js",
-          "size": 300124
+          "name": "bundlea9f8ab4555e4b0b271ca.js",
+          "size": 300319
         },
         {
-          "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js",
-          "size": 9907
+          "name": "bundle.6deda136d7884bcef35e.hot-update.js",
+          "size": 10102
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 310031,
+      "assetsSize": 310421,
       "auxiliaryAssets": [
         {
-          "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js.map",
-          "size": 11340
+          "name": "bundle.6deda136d7884bcef35e.hot-update.js.map",
+          "size": 11613
         },
         {
-          "name": "bundle4103ed8a6186239a5ec0.js.map",
-          "size": 343703
+          "name": "bundlea9f8ab4555e4b0b271ca.js.map",
+          "size": 343976
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 355043,
+      "auxiliaryAssetsSize": 355589,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10501,28 +10501,28 @@
       ],
       "assets": [
         {
-          "name": "bundle4103ed8a6186239a5ec0.js",
-          "size": 300124
+          "name": "bundlea9f8ab4555e4b0b271ca.js",
+          "size": 300319
         },
         {
-          "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js",
-          "size": 9907
+          "name": "bundle.6deda136d7884bcef35e.hot-update.js",
+          "size": 10102
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 310031,
+      "assetsSize": 310421,
       "auxiliaryAssets": [
         {
-          "name": "bundle.dce91af0744e3f0f0ca5.hot-update.js.map",
-          "size": 11340
+          "name": "bundle.6deda136d7884bcef35e.hot-update.js.map",
+          "size": 11613
         },
         {
-          "name": "bundle4103ed8a6186239a5ec0.js.map",
-          "size": 343703
+          "name": "bundlea9f8ab4555e4b0b271ca.js.map",
+          "size": 343976
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 355043,
+      "auxiliaryAssetsSize": 355589,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
