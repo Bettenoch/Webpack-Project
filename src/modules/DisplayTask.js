@@ -1,9 +1,8 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable new-cap */
 import { taskField } from './TaskList.js';
 import 'boxicons';
 
-class inputTasks {
+class InputTasks {
   constructor() {
     this.tasks = [];
   }
@@ -31,8 +30,6 @@ class inputTasks {
                     <p contenteditable="true" class="todo-task">${task.description}</p>
                 </article>
                 <article class="todo-icons">
-                    <box-icon type='solid' name='comment-x' class='Delete'></box-icon>
-                    <box-icon type='solid' name='edit' class='edit'></box-icon>
                     <box-icon name='dots-vertical'></box-icon>
                 </article>
             
@@ -42,6 +39,6 @@ class inputTasks {
     }
 }
 
-export const newTasks = new inputTasks();
+export const newTasks = new InputTasks();
 
-export const { addItems } = new inputTasks();
+export const { addItems } = new InputTasks();
