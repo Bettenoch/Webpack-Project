@@ -28,6 +28,7 @@ module.exports = {
     },
     module: {
         rules: [
+
             {
                 test: /\.scss$/,
                 use: [
@@ -36,6 +37,7 @@ module.exports = {
                     'sass-loader'
                 ]
             },
+
         {
             test: /\.js$/,
             exclude: /node_modules/,
