@@ -24,11 +24,16 @@ class inputTasks {
             todo.classList.add('todo-item');
             todo.id = idx;
             todo.innerHTML = `
-            <input type="checkbox" id="task-${task.idx}" name="task-${task.idx}" ${task.completed ? 'checked' : 'unchecked'}>
-            <p contenteditable="true" class="todo-task">${task.description}</p>
-            <box-icon name='dots-vertical-rounded class='more'></box-icon>
-            <box-icon type='solid' name='comment-x' class='Delete'></box-icon>
-            <box-icon type='solid' name='edit' class='edit'></box-icon>
+                <article class="todo-content">
+                    <input type="checkbox" id="task-${task.idx}" class="todo-output" name="task-${task.idx}" ${task.completed ? 'checked' : 'unchecked'}>
+                    <p contenteditable="true" class="todo-task">${task.description}</p>
+                </article>
+                <article class="todo-icons">
+                    <box-icon type='solid' name='comment-x' class='Delete'></box-icon>
+                    <box-icon type='solid' name='edit' class='edit'></box-icon>
+                    <box-icon name='dots-vertical'></box-icon>
+                </article>
+            
             `
             taskField.appendChild(todo);
         });
