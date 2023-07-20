@@ -1,8 +1,8 @@
 {
   "hash": "f3d05c1fca363338d318",
   "version": "5.88.1",
-  "time": 17499,
-  "builtAt": 1689870750737,
+  "time": 3965,
+  "builtAt": 1689870903302,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
@@ -15,9 +15,9 @@
       "type": "asset",
       "name": "bundlebd9ef9cbfd41123dbfc3.js",
       "size": 54897,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "bd9ef9cbfd41123dbfc3",
@@ -39,8 +39,8 @@
           "type": "sourceMap",
           "name": "bundlebd9ef9cbfd41123dbfc3.js.map",
           "size": 52023,
-          "emitted": true,
-          "comparedForEmit": false,
+          "emitted": false,
+          "comparedForEmit": true,
           "cached": false,
           "info": {
             "development": true,
@@ -70,8 +70,8 @@
       "type": "asset",
       "name": "index.html",
       "size": 1688,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 1688
@@ -4041,8 +4041,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "fb21f1c2ea7f4e49114c",
       "version": "5.88.1",
-      "time": 272,
-      "builtAt": 1689870733749,
+      "time": 230,
+      "builtAt": 1689870899639,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
       "assetsByChunkName": {},
