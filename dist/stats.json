@@ -1,29 +1,30 @@
 {
-  "hash": "aaeefcba0416d41ddde6",
+  "hash": "2333e9d74c4e35cd6293",
   "version": "5.88.1",
-  "time": 14334,
-  "builtAt": 1689830344825,
+  "time": 1604,
+  "builtAt": 1689831889855,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundled0e03ccb4629792986d7.js"
+      "bundle0f994588db7cad8edada.js",
+      "bundle.18c56388206a413e9b75.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundled0e03ccb4629792986d7.js",
+      "name": "bundle0f994588db7cad8edada.js",
       "size": 301055,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "d0e03ccb4629792986d7",
+        "contenthash": "0f994588db7cad8edada",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundled0e03ccb4629792986d7.js.map"
+          "sourceMap": "bundle0f994588db7cad8edada.js.map"
         },
         "size": 301055
       },
@@ -37,7 +38,7 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundled0e03ccb4629792986d7.js.map",
+          "name": "bundle0f994588db7cad8edada.js.map",
           "size": 344645,
           "emitted": true,
           "comparedForEmit": false,
@@ -69,12 +70,89 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1283,
+      "size": 1397,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1283
+        "size": 1397
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle.18c56388206a413e9b75.hot-update.js",
+      "size": 364,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "18c56388206a413e9b75",
+        "related": {
+          "sourceMap": "bundle.18c56388206a413e9b75.hot-update.js.map"
+        },
+        "size": 364
+      },
+      "chunkNames": [
+        "bundle"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "bundle.18c56388206a413e9b75.hot-update.js.map",
+          "size": 260,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 260
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "bundle"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "bundle"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "bundle"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle.18c56388206a413e9b75.hot-update.json",
+      "size": 30,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "18c56388206a413e9b75",
+        "size": 30
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -105,12 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundled0e03ccb4629792986d7.js"
+        "bundle0f994588db7cad8edada.js",
+        "bundle.18c56388206a413e9b75.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundled0e03ccb4629792986d7.js.map"
+        "bundle.18c56388206a413e9b75.hot-update.js.map",
+        "bundle0f994588db7cad8edada.js.map"
       ],
-      "hash": "1529329b49c040f79361",
+      "hash": "7f462ea6b2c050364629",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -125,10 +205,10 @@
           "sizes": {
             "javascript": 4262
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\ansi-html-community\\index.js",
           "name": "./node_modules/ansi-html-community/index.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\ansi-html-community\\index.js",
@@ -223,9 +303,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -236,10 +314,10 @@
           "sizes": {
             "javascript": 13059
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
           "name": "./node_modules/boxicons/dist/boxicons.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
@@ -306,9 +384,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:12876-12890"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -319,10 +395,10 @@
           "sizes": {
             "javascript": 8030
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -626,10 +702,10 @@
           "sizes": {
             "javascript": 2303
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
           "name": "./node_modules/css-loader/dist/runtime/api.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
@@ -715,9 +791,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 7:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 3
         },
         {
@@ -728,10 +802,10 @@
           "sizes": {
             "javascript": 505
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
           "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
@@ -817,9 +891,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 3
         },
         {
@@ -830,10 +902,10 @@
           "sizes": {
             "javascript": 14890
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\events\\events.js",
           "name": "./node_modules/events/events.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\events\\events.js",
@@ -900,9 +972,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 56:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -913,10 +983,10 @@
           "sizes": {
             "javascript": 8100
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\index.js",
           "name": "./node_modules/html-entities/lib/index.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\index.js",
@@ -1011,9 +1081,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 2:16-20"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1024,10 +1092,10 @@
           "sizes": {
             "javascript": 74801
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\named-references.js",
           "name": "./node_modules/html-entities/lib/named-references.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\named-references.js",
@@ -1100,10 +1168,10 @@
           "sizes": {
             "javascript": 339
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
           "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
@@ -1175,10 +1243,10 @@
           "sizes": {
             "javascript": 537
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
           "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
@@ -1253,10 +1321,10 @@
           "sizes": {
             "javascript": 2480
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
           "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
@@ -1337,9 +1405,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 62:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1350,10 +1416,10 @@
           "sizes": {
             "javascript": 1003
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
           "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
@@ -1434,9 +1500,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 34:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1447,10 +1511,10 @@
           "sizes": {
             "javascript": 285
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
           "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
@@ -1531,9 +1595,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 10:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1544,10 +1606,10 @@
           "sizes": {
             "javascript": 298
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
           "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
@@ -1628,9 +1690,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 10:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1641,10 +1701,10 @@
           "sizes": {
             "javascript": 1534
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
           "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
@@ -1725,9 +1785,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 61:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1738,10 +1796,10 @@
           "sizes": {
             "javascript": 380
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
           "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
@@ -1822,9 +1880,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 14:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1835,10 +1891,10 @@
           "sizes": {
             "javascript": 2269
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
           "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
@@ -1974,10 +2030,10 @@
           "sizes": {
             "javascript": 11088
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js",
@@ -2029,10 +2085,10 @@
           "sizes": {
             "javascript": 26608
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
           "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
@@ -2127,9 +2183,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: exports is used directly at 724:32-39"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -2140,10 +2194,10 @@
           "sizes": {
             "javascript": 11346
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay.js",
           "name": "./node_modules/webpack-dev-server/client/overlay.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay.js",
@@ -2247,10 +2301,10 @@
           "sizes": {
             "javascript": 3845
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\fsm.js",
           "name": "./node_modules/webpack-dev-server/client/overlay/fsm.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\fsm.js",
@@ -2335,10 +2389,10 @@
           "sizes": {
             "javascript": 1123
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\runtime-error.js",
           "name": "./node_modules/webpack-dev-server/client/overlay/runtime-error.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\runtime-error.js",
@@ -2448,10 +2502,10 @@
           "sizes": {
             "javascript": 2785
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\state-machine.js",
           "name": "./node_modules/webpack-dev-server/client/overlay/state-machine.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\state-machine.js",
@@ -2531,10 +2585,10 @@
           "sizes": {
             "javascript": 1515
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\styles.js",
           "name": "./node_modules/webpack-dev-server/client/overlay/styles.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\styles.js",
@@ -2718,10 +2772,10 @@
           "sizes": {
             "javascript": 2037
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\socket.js",
           "name": "./node_modules/webpack-dev-server/client/socket.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\socket.js",
@@ -2797,10 +2851,10 @@
           "sizes": {
             "javascript": 4372
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
@@ -2875,10 +2929,10 @@
           "sizes": {
             "javascript": 868
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
           "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
@@ -2958,10 +3012,10 @@
           "sizes": {
             "javascript": 1173
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
           "name": "./node_modules/webpack-dev-server/client/utils/log.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
@@ -3318,10 +3372,10 @@
           "sizes": {
             "javascript": 1281
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
@@ -3396,10 +3450,10 @@
           "sizes": {
             "javascript": 2082
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
           "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
@@ -3488,10 +3542,10 @@
           "sizes": {
             "javascript": 435
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
           "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
@@ -3650,10 +3704,10 @@
           "sizes": {
             "javascript": 690
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
           "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
@@ -3742,10 +3796,10 @@
           "sizes": {
             "javascript": 1985
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
           "name": "./node_modules/webpack/hot/dev-server.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
@@ -3797,10 +3851,10 @@
           "sizes": {
             "javascript": 75
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
           "name": "./node_modules/webpack/hot/emitter.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
@@ -3890,9 +3944,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 2:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -3903,10 +3955,10 @@
           "sizes": {
             "javascript": 1462
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log-apply-result.js",
           "name": "./node_modules/webpack/hot/log-apply-result.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log-apply-result.js",
@@ -3968,9 +4020,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 10:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -3981,10 +4031,10 @@
           "sizes": {
             "javascript": 1908
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log.js",
           "name": "./node_modules/webpack/hot/log.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log.js",
@@ -3996,20 +4046,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
-          "issuerName": "./node_modules/webpack/hot/dev-server.js",
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "issuerPath": [
             {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack/hot/dev-server.js",
+          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "chunks": [
             "bundle"
           ],
@@ -4088,9 +4138,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 36:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -4101,10 +4149,10 @@
           "sizes": {
             "javascript": 1279
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
           "name": "./src/index.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
@@ -4157,10 +4205,10 @@
           "sizes": {
             "javascript": 384
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
           "name": "./src/modules/AddTask.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
@@ -4249,10 +4297,10 @@
           "sizes": {
             "javascript": 3540
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
           "name": "./src/modules/DisplayTask.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
@@ -4496,10 +4544,10 @@
           "sizes": {
             "javascript": 425
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
           "name": "./src/modules/LocalStorage.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
@@ -4617,10 +4665,10 @@
           "sizes": {
             "javascript": 2144
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
           "name": "./src/modules/TaskList.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
@@ -4867,10 +4915,10 @@
           "sizes": {
             "javascript": 2452
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
           "name": "./src/styles/index.scss",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -5426,10 +5474,10 @@
       "sizes": {
         "javascript": 11088
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js",
@@ -5480,10 +5528,10 @@
       "sizes": {
         "javascript": 1985
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
       "name": "./node_modules/webpack/hot/dev-server.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
@@ -5534,10 +5582,10 @@
       "sizes": {
         "javascript": 1279
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
       "name": "./src/index.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
@@ -5589,10 +5637,10 @@
       "sizes": {
         "javascript": 1908
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log.js",
       "name": "./node_modules/webpack/hot/log.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log.js",
@@ -5603,20 +5651,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
-      "issuerName": "./node_modules/webpack/hot/dev-server.js",
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "issuerPath": [
         {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack/hot/dev-server.js",
+      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "chunks": [
         "bundle"
       ],
@@ -5695,9 +5743,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 36:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -5708,10 +5754,10 @@
       "sizes": {
         "javascript": 690
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
       "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
@@ -5799,10 +5845,10 @@
       "sizes": {
         "javascript": 1281
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
@@ -5876,10 +5922,10 @@
       "sizes": {
         "javascript": 2037
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\socket.js",
       "name": "./node_modules/webpack-dev-server/client/socket.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\socket.js",
@@ -5954,10 +6000,10 @@
       "sizes": {
         "javascript": 1173
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
       "name": "./node_modules/webpack-dev-server/client/utils/log.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
@@ -6313,10 +6359,10 @@
       "sizes": {
         "javascript": 11346
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay.js",
       "name": "./node_modules/webpack-dev-server/client/overlay.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay.js",
@@ -6419,10 +6465,10 @@
       "sizes": {
         "javascript": 435
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
       "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
@@ -6580,10 +6626,10 @@
       "sizes": {
         "javascript": 2082
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
       "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
@@ -6671,10 +6717,10 @@
       "sizes": {
         "javascript": 75
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
       "name": "./node_modules/webpack/hot/emitter.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
@@ -6763,9 +6809,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 2:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -6776,10 +6820,10 @@
       "sizes": {
         "javascript": 4372
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
@@ -6853,10 +6897,10 @@
       "sizes": {
         "javascript": 1462
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log-apply-result.js",
       "name": "./node_modules/webpack/hot/log-apply-result.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\log-apply-result.js",
@@ -6917,9 +6961,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 10:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -6930,10 +6972,10 @@
       "sizes": {
         "javascript": 2452
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
       "name": "./src/styles/index.scss",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -6993,10 +7035,10 @@
       "sizes": {
         "javascript": 384
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
       "name": "./src/modules/AddTask.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
@@ -7084,10 +7126,10 @@
       "sizes": {
         "javascript": 2144
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
       "name": "./src/modules/TaskList.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
@@ -7333,10 +7375,10 @@
       "sizes": {
         "javascript": 3540
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
       "name": "./src/modules/DisplayTask.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
@@ -7579,10 +7621,10 @@
       "sizes": {
         "javascript": 425
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
       "name": "./src/modules/LocalStorage.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
@@ -7699,10 +7741,10 @@
       "sizes": {
         "javascript": 868
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
       "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
@@ -7781,10 +7823,10 @@
       "sizes": {
         "javascript": 2269
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
       "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
@@ -7919,10 +7961,10 @@
       "sizes": {
         "javascript": 26608
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
       "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
@@ -8016,9 +8058,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: exports is used directly at 724:32-39"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8029,10 +8069,10 @@
       "sizes": {
         "javascript": 4262
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\ansi-html-community\\index.js",
       "name": "./node_modules/ansi-html-community/index.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\ansi-html-community\\index.js",
@@ -8126,9 +8166,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8139,10 +8177,10 @@
       "sizes": {
         "javascript": 1123
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\runtime-error.js",
       "name": "./node_modules/webpack-dev-server/client/overlay/runtime-error.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\runtime-error.js",
@@ -8251,10 +8289,10 @@
       "sizes": {
         "javascript": 2785
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\state-machine.js",
       "name": "./node_modules/webpack-dev-server/client/overlay/state-machine.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\state-machine.js",
@@ -8333,10 +8371,10 @@
       "sizes": {
         "javascript": 1515
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\styles.js",
       "name": "./node_modules/webpack-dev-server/client/overlay/styles.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\styles.js",
@@ -8519,10 +8557,10 @@
       "sizes": {
         "javascript": 8100
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\index.js",
       "name": "./node_modules/html-entities/lib/index.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\index.js",
@@ -8616,9 +8654,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 2:16-20"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8629,10 +8665,10 @@
       "sizes": {
         "javascript": 14890
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\events\\events.js",
       "name": "./node_modules/events/events.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\events\\events.js",
@@ -8698,9 +8734,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 56:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8711,10 +8745,10 @@
       "sizes": {
         "javascript": 2480
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
       "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
@@ -8794,9 +8828,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 62:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8807,10 +8839,10 @@
       "sizes": {
         "javascript": 1534
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
       "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
@@ -8890,9 +8922,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 61:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8903,10 +8933,10 @@
       "sizes": {
         "javascript": 1003
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
       "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
@@ -8986,9 +9016,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 34:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -8999,10 +9027,10 @@
       "sizes": {
         "javascript": 298
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
       "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
@@ -9082,9 +9110,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 10:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -9095,10 +9121,10 @@
       "sizes": {
         "javascript": 285
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
       "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
@@ -9178,9 +9204,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 10:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -9191,10 +9215,10 @@
       "sizes": {
         "javascript": 380
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
       "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
@@ -9274,9 +9298,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 14:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -9287,10 +9309,10 @@
       "sizes": {
         "javascript": 8030
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -9593,10 +9615,10 @@
       "sizes": {
         "javascript": 13059
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
       "name": "./node_modules/boxicons/dist/boxicons.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
@@ -9662,9 +9684,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 1:12876-12890"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -9675,10 +9695,10 @@
       "sizes": {
         "javascript": 3845
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\fsm.js",
       "name": "./node_modules/webpack-dev-server/client/overlay/fsm.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\overlay\\fsm.js",
@@ -9762,10 +9782,10 @@
       "sizes": {
         "javascript": 74801
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\named-references.js",
       "name": "./node_modules/html-entities/lib/named-references.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\named-references.js",
@@ -9837,10 +9857,10 @@
       "sizes": {
         "javascript": 339
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
       "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
@@ -9911,10 +9931,10 @@
       "sizes": {
         "javascript": 537
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
       "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
@@ -9988,10 +10008,10 @@
       "sizes": {
         "javascript": 505
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
       "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
@@ -10076,9 +10096,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -10089,10 +10107,10 @@
       "sizes": {
         "javascript": 2303
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
       "name": "./node_modules/css-loader/dist/runtime/api.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
@@ -10177,9 +10195,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 7:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -10646,20 +10662,28 @@
       ],
       "assets": [
         {
-          "name": "bundled0e03ccb4629792986d7.js",
+          "name": "bundle0f994588db7cad8edada.js",
           "size": 301055
+        },
+        {
+          "name": "bundle.18c56388206a413e9b75.hot-update.js",
+          "size": 364
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 301055,
+      "assetsSize": 301419,
       "auxiliaryAssets": [
         {
-          "name": "bundled0e03ccb4629792986d7.js.map",
+          "name": "bundle.18c56388206a413e9b75.hot-update.js.map",
+          "size": 260
+        },
+        {
+          "name": "bundle0f994588db7cad8edada.js.map",
           "size": 344645
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 344645,
+      "auxiliaryAssetsSize": 344905,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10673,20 +10697,28 @@
       ],
       "assets": [
         {
-          "name": "bundled0e03ccb4629792986d7.js",
+          "name": "bundle0f994588db7cad8edada.js",
           "size": 301055
+        },
+        {
+          "name": "bundle.18c56388206a413e9b75.hot-update.js",
+          "size": 364
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 301055,
+      "assetsSize": 301419,
       "auxiliaryAssets": [
         {
-          "name": "bundled0e03ccb4629792986d7.js.map",
+          "name": "bundle.18c56388206a413e9b75.hot-update.js.map",
+          "size": 260
+        },
+        {
+          "name": "bundle0f994588db7cad8edada.js.map",
           "size": 344645
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 344645,
+      "auxiliaryAssetsSize": 344905,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10699,10 +10731,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "f2ba68f6a783b11bf3a9",
+      "hash": "b84e9fd8bbb343d30364",
       "version": "5.88.1",
-      "time": 6590,
-      "builtAt": 1689830337177,
+      "time": 136,
+      "builtAt": 1689831888409,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
       "assetsByChunkName": {},
@@ -10713,23 +10745,23 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2355,
+          "size": 2473,
           "sizes": {
-            "javascript": 1621,
+            "javascript": 1739,
             "runtime": 734
           },
           "names": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "idHints": [],
           "runtime": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "30f5beecd29e2332f5d2",
+          "hash": "98e342ecbb09653f6159",
           "childrenByOrder": {},
-          "id": "HtmlWebpackPlugin_0-0",
+          "id": "HtmlWebpackPlugin_0-2",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -10738,9 +10770,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1544,
+              "size": 1662,
               "sizes": {
-                "javascript": 1544
+                "javascript": 1662
               },
               "built": true,
               "codeGenerated": true,
@@ -10766,7 +10798,7 @@
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
               "issuerId": null,
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [
@@ -10794,7 +10826,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-                  "loc": "HtmlWebpackPlugin_0-0",
+                  "loc": "HtmlWebpackPlugin_0-2",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -10827,7 +10859,7 @@
               "sizes": {
                 "javascript": 77
               },
-              "built": true,
+              "built": false,
               "codeGenerated": true,
               "buildTimeExecuted": false,
               "cached": false,
@@ -10851,7 +10883,7 @@
               "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
               "issuerId": null,
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [
@@ -10865,7 +10897,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-                  "loc": "HtmlWebpackPlugin_0-0",
+                  "loc": "HtmlWebpackPlugin_0-2",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -10902,7 +10934,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [],
@@ -10938,7 +10970,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [],
@@ -10974,7 +11006,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [],
@@ -11010,7 +11042,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                "HtmlWebpackPlugin_0-0"
+                "HtmlWebpackPlugin_0-2"
               ],
               "assets": [],
               "reasons": [],
@@ -11025,14 +11057,14 @@
               "module": "",
               "moduleIdentifier": "",
               "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-0",
+              "loc": "HtmlWebpackPlugin_0-2",
               "request": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html"
             },
             {
               "module": "",
               "moduleIdentifier": "",
               "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-0",
+              "loc": "HtmlWebpackPlugin_0-2",
               "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
             }
           ]
@@ -11047,7 +11079,7 @@
           "sizes": {
             "javascript": 77
           },
-          "built": true,
+          "built": false,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
@@ -11070,7 +11102,7 @@
           "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
           "issuerId": null,
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [
@@ -11084,7 +11116,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "loc": "HtmlWebpackPlugin_0-0",
+              "loc": "HtmlWebpackPlugin_0-2",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -11098,9 +11130,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1544,
+          "size": 1662,
           "sizes": {
-            "javascript": 1544
+            "javascript": 1662
           },
           "built": true,
           "codeGenerated": true,
@@ -11125,7 +11157,7 @@
           "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
           "issuerId": null,
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [
@@ -11153,7 +11185,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "loc": "HtmlWebpackPlugin_0-0",
+              "loc": "HtmlWebpackPlugin_0-2",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -11204,7 +11236,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [],
@@ -11239,7 +11271,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [],
@@ -11274,7 +11306,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [],
@@ -11309,7 +11341,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "reasons": [],
@@ -11320,10 +11352,10 @@
         }
       ],
       "entrypoints": {
-        "HtmlWebpackPlugin_0-0": {
-          "name": "HtmlWebpackPlugin_0-0",
+        "HtmlWebpackPlugin_0-2": {
+          "name": "HtmlWebpackPlugin_0-2",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "filteredAssets": 0,
@@ -11337,10 +11369,10 @@
         }
       },
       "namedChunkGroups": {
-        "HtmlWebpackPlugin_0-0": {
-          "name": "HtmlWebpackPlugin_0-0",
+        "HtmlWebpackPlugin_0-2": {
+          "name": "HtmlWebpackPlugin_0-2",
           "chunks": [
-            "HtmlWebpackPlugin_0-0"
+            "HtmlWebpackPlugin_0-2"
           ],
           "assets": [],
           "filteredAssets": 0,
