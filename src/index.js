@@ -1,4 +1,4 @@
-import './styles/index.css';
+import './styles/index.scss';
 import addItems from './modules/AddTask.js';
 import { newTasks } from './modules/DisplayTask.js';
 
