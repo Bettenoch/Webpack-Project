@@ -63,7 +63,7 @@ body {
 .t-text {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 3rem;
+  padding: 0 3rem;
 }
 
 form {
@@ -75,11 +75,13 @@ form {
   transition: 0.5s;
   width: 100%;
 }
+
 .form-input {
   background: #efeded;
   border-radius: 10px;
   border-top: 1px solid #efecec;
 }
+
 .task-input {
   width: 100%;
   display: flex;
