@@ -1,31 +1,31 @@
 {
-  "hash": "4484caf67cf5e7c7cbc5",
+  "hash": "f3d05c1fca363338d318",
   "version": "5.88.1",
-  "time": 36211,
-  "builtAt": 1689833407250,
+  "time": 3965,
+  "builtAt": 1689870903302,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle082102b51d82ac6db109.js"
+      "bundlebd9ef9cbfd41123dbfc3.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle082102b51d82ac6db109.js",
-      "size": 55633,
+      "name": "bundlebd9ef9cbfd41123dbfc3.js",
+      "size": 54897,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "082102b51d82ac6db109",
+        "contenthash": "bd9ef9cbfd41123dbfc3",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle082102b51d82ac6db109.js.map"
+          "sourceMap": "bundlebd9ef9cbfd41123dbfc3.js.map"
         },
-        "size": 55633
+        "size": 54897
       },
       "chunkNames": [
         "bundle"
@@ -37,14 +37,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle082102b51d82ac6db109.js.map",
-          "size": 52696,
+          "name": "bundlebd9ef9cbfd41123dbfc3.js.map",
+          "size": 52023,
           "emitted": false,
           "comparedForEmit": true,
           "cached": false,
           "info": {
             "development": true,
-            "size": 52696
+            "size": 52023
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,12 +69,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1397,
-      "emitted": true,
-      "comparedForEmit": false,
+      "size": 1688,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
-        "size": 1397
+        "size": 1688
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -92,9 +92,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 39873,
+      "size": 39500,
       "sizes": {
-        "javascript": 38901,
+        "javascript": 38528,
         "runtime": 972
       },
       "names": [
@@ -105,12 +105,12 @@
         "bundle"
       ],
       "files": [
-        "bundle082102b51d82ac6db109.js"
+        "bundlebd9ef9cbfd41123dbfc3.js"
       ],
       "auxiliaryFiles": [
-        "bundle082102b51d82ac6db109.js.map"
+        "bundlebd9ef9cbfd41123dbfc3.js.map"
       ],
-      "hash": "067ff5bcccb7f6c1541e",
+      "hash": "196d4f3a602fc4f4d353",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -174,7 +174,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "boxicons",
-              "loc": "11:0-18",
+              "loc": "10:0-18",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             },
@@ -204,9 +204,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8030,
+          "size": 8113,
           "sizes": {
-            "javascript": 8030
+            "javascript": 8113
           },
           "built": true,
           "codeGenerated": true,
@@ -1143,9 +1143,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1279,
+          "size": 1021,
           "sizes": {
-            "javascript": 1279
+            "javascript": 1021
           },
           "built": true,
           "codeGenerated": true,
@@ -1264,20 +1264,6 @@
               "loc": "12:17-25",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/AddTask.js",
-              "loc": "24:15-23",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
             }
           ],
           "usedExports": null,
@@ -1291,9 +1277,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3540,
+          "size": 3342,
           "sizes": {
-            "javascript": 3540
+            "javascript": 3342
           },
           "built": true,
           "codeGenerated": true,
@@ -1395,7 +1381,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "25:4-21",
+              "loc": "24:6-25",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1409,49 +1395,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "26:4-23",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/DisplayTask.js",
-              "loc": "28:4-24",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/DisplayTask.js",
-              "loc": "35:6-25",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/DisplayTask.js",
-              "loc": "44:2-22",
+              "loc": "33:2-22",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1614,7 +1558,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/LocalStorage.js",
-              "loc": "27:4-9",
+              "loc": "25:6-11",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1628,21 +1572,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/LocalStorage.js",
-              "loc": "36:6-11",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/LocalStorage.js",
-              "loc": "43:2-12",
+              "loc": "32:2-12",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -1707,7 +1637,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/TaskList.js",
-              "loc": "5:0-70",
+              "loc": "5:0-61",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1749,35 +1679,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/TaskList.js",
-              "loc": "20:0-24",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "21:6-21",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "31:0-26",
+              "loc": "20:0-26",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1861,7 +1763,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./TaskList.js",
-              "loc": "10:0-42",
+              "loc": "9:0-42",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             },
@@ -1875,7 +1777,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./TaskList.js",
-              "loc": "16:4-23",
+              "loc": "15:4-23",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             },
@@ -1889,7 +1791,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./TaskList.js",
-              "loc": "30:6-27",
+              "loc": "29:6-27",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             }
@@ -2166,9 +2068,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1279,
+      "size": 1021,
       "sizes": {
-        "javascript": 1279
+        "javascript": 1021
       },
       "built": true,
       "codeGenerated": true,
@@ -2348,20 +2250,6 @@
           "loc": "12:17-25",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/AddTask.js",
-          "loc": "24:15-23",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
         }
       ],
       "usedExports": null,
@@ -2422,7 +2310,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/TaskList.js",
-          "loc": "5:0-70",
+          "loc": "5:0-61",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -2464,35 +2352,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/TaskList.js",
-          "loc": "20:0-24",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "21:6-21",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "31:0-26",
+          "loc": "20:0-26",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -2576,7 +2436,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./TaskList.js",
-          "loc": "10:0-42",
+          "loc": "9:0-42",
           "moduleId": "./src/modules/DisplayTask.js",
           "resolvedModuleId": "./src/modules/DisplayTask.js"
         },
@@ -2590,7 +2450,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./TaskList.js",
-          "loc": "16:4-23",
+          "loc": "15:4-23",
           "moduleId": "./src/modules/DisplayTask.js",
           "resolvedModuleId": "./src/modules/DisplayTask.js"
         },
@@ -2604,7 +2464,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./TaskList.js",
-          "loc": "30:6-27",
+          "loc": "29:6-27",
           "moduleId": "./src/modules/DisplayTask.js",
           "resolvedModuleId": "./src/modules/DisplayTask.js"
         }
@@ -2624,9 +2484,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3540,
+      "size": 3342,
       "sizes": {
-        "javascript": 3540
+        "javascript": 3342
       },
       "built": true,
       "codeGenerated": true,
@@ -2727,7 +2587,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "25:4-21",
+          "loc": "24:6-25",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -2741,49 +2601,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "26:4-23",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/DisplayTask.js",
-          "loc": "28:4-24",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/DisplayTask.js",
-          "loc": "35:6-25",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/DisplayTask.js",
-          "loc": "44:2-22",
+          "loc": "33:2-22",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -2945,7 +2763,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/LocalStorage.js",
-          "loc": "27:4-9",
+          "loc": "25:6-11",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -2959,21 +2777,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/LocalStorage.js",
-          "loc": "36:6-11",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/LocalStorage.js",
-          "loc": "43:2-12",
+          "loc": "32:2-12",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -3566,9 +3370,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 8030,
+      "size": 8113,
       "sizes": {
-        "javascript": 8030
+        "javascript": 8113
       },
       "built": true,
       "codeGenerated": true,
@@ -3770,7 +3574,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "boxicons",
-          "loc": "11:0-18",
+          "loc": "10:0-18",
           "moduleId": "./src/modules/DisplayTask.js",
           "resolvedModuleId": "./src/modules/DisplayTask.js"
         },
@@ -4182,20 +3986,20 @@
       ],
       "assets": [
         {
-          "name": "bundle082102b51d82ac6db109.js",
-          "size": 55633
+          "name": "bundlebd9ef9cbfd41123dbfc3.js",
+          "size": 54897
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 55633,
+      "assetsSize": 54897,
       "auxiliaryAssets": [
         {
-          "name": "bundle082102b51d82ac6db109.js.map",
-          "size": 52696
+          "name": "bundlebd9ef9cbfd41123dbfc3.js.map",
+          "size": 52023
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 52696,
+      "auxiliaryAssetsSize": 52023,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -4209,20 +4013,20 @@
       ],
       "assets": [
         {
-          "name": "bundle082102b51d82ac6db109.js",
-          "size": 55633
+          "name": "bundlebd9ef9cbfd41123dbfc3.js",
+          "size": 54897
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 55633,
+      "assetsSize": 54897,
       "auxiliaryAssets": [
         {
-          "name": "bundle082102b51d82ac6db109.js.map",
-          "size": 52696
+          "name": "bundlebd9ef9cbfd41123dbfc3.js.map",
+          "size": 52023
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 52696,
+      "auxiliaryAssetsSize": 52023,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -4235,10 +4039,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "4dc625745d97d14649b5",
+      "hash": "fb21f1c2ea7f4e49114c",
       "version": "5.88.1",
-      "time": 6108,
-      "builtAt": 1689833378102,
+      "time": 230,
+      "builtAt": 1689870899639,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
       "assetsByChunkName": {},
@@ -4249,9 +4053,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2473,
+          "size": 2778,
           "sizes": {
-            "javascript": 1739,
+            "javascript": 2044,
             "runtime": 734
           },
           "names": [
@@ -4263,7 +4067,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "19343fcbd13fb6fa8985",
+          "hash": "e6885678d9761408ad8c",
           "childrenByOrder": {},
           "id": "HtmlWebpackPlugin_0-0",
           "siblings": [],
@@ -4274,9 +4078,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1662,
+              "size": 1967,
               "sizes": {
-                "javascript": 1662
+                "javascript": 1967
               },
               "built": true,
               "codeGenerated": true,
@@ -4634,9 +4438,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1662,
+          "size": 1967,
           "sizes": {
-            "javascript": 1662
+            "javascript": 1967
           },
           "built": true,
           "codeGenerated": true,
