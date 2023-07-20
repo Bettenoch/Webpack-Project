@@ -188,17 +188,17 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* primary-color: #2fa8cc;
 \$secondary-color: #f4f4f4;
 \$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
 :root {
-  --primary: #EA40A4;
+  --primary: #ea40a4;
   --business: #3a82ee;
   --personal: var(--primary);
-  --light: #EEE;
+  --light: #eee;
   --grey: #888;
   --dark: #313154;
   --danger: #ff5b57;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-  --business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
-  --personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);
+  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);
 }
 
 * {
@@ -220,7 +220,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  align-items: center;
   margin-top: 4rem;
   width: 100vw;
 }
@@ -246,12 +245,6 @@ body {
 
 .form-container {
   display: flex;
-}
-
-.todo-task {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
 }
 
 form {
@@ -326,7 +319,7 @@ form {
   display: flex;
   flex: 1;
   gap: 1rem;
-  padding: 0rem 3rem;
+  padding: 0 3rem;
 }
 
 .todo-icons {
@@ -339,6 +332,8 @@ form {
 
 .todo-task {
   display: flex;
+  flex-direction: column;
+  text-align: start;
   flex: 1;
   padding-top: 0.4rem;
 }
@@ -352,7 +347,7 @@ form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   color: #313154;
-}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAAA;;4EAAA;AAKA;EACC,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EAEA,sCAAA;EACG,0EAAA;EAEH,qDAAA;EACA,qDAAA;AAFD;;AAKA;EACC,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACG,qBAAA;EACA,qBAAA;AAFJ;;AAKA;EACC,wBAAA;EACA,kBAAA;AAFD;;AAKA;EACC,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,mBAAA;EACA,gBAAA;EACA,YAAA;AAFD;;AAKA;EACC,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAFD;;AAIA;EACC,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AADD;;AAIA;EACC,eAAA;AADD;;AAIA;EACC,aAAA;AADD;;AAKA;EACC,aAAA;EACA,sBAAA;EACA,iBAAA;AAFD;;AAKA;EACC,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,kBAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAFD;;AAMA;EACC,WAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,mBAAA;AAHD;;AAMA;EACC,aAAA;EACA,yBAAA;EACA,qBAAA;AAHD;;AAMA;EACC,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,wEAAA;AAHD;;AAOA;EACC,qCAAA;EACA,YAAA;AAJD;;AAMA;EACC,aAAA;EACA,kBAAA;EACA,sBAAA;AAHD;;AAMA;EACC,gCAAA;EACA,6BAAA;EACA,qBAAA;AAHD;;AAKA;EACC,aAAA;EACA,sBAAA;AAFD;;AAMA;EACC,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACG,mBAAA;EACH,gCAAA;EACA,qBAAA;AAHD;;AAMA;EACC,aAAA;EACA,OAAA;EACA,SAAA;EACA,kBAAA;AAHD;;AAOA;EACC,mBAAA;AAJD;;AAQA;EACC,aAAA;AALD;;AASA;EACC,aAAA;EACA,OAAA;EACA,mBAAA;AAND;;AAUA;EACC,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAPD","sourcesContent":["/* primary-color: #2fa8cc;\r\n$secondary-color: #f4f4f4;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n\t--primary: #EA40A4;\r\n\t--business: #3a82ee;\r\n\t--personal: var(--primary);\r\n\t--light: #EEE;\r\n\t--grey: #888;\r\n\t--dark: #313154;\r\n\t--danger: #ff5b57;\r\n\r\n\t--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n    --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n\r\n\t--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);\r\n\t--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbox-sizing: border-box;\r\n\tfont-family: 'montserrat', sans-serif;\r\n    text-decoration: none;\r\n    list-style-type: none;\r\n}\r\n\r\nbody {\r\n\tbackground: var(--light);\r\n\tcolor: var(--dark);\r\n}\r\n\r\n.main-container {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n\tgap: 4rem;\r\n\talign-items: center;\r\n\tmargin-top: 4rem;\r\n\twidth: 100vw;\r\n}\r\n\r\n.page-contents {\r\n\tbackground: white;\r\n\tbox-shadow: var(--box-shadow);\r\n\tborder-radius: 10px;\r\n\twidth: 80%;\r\n}\r\n.header-tag {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tgap: 1.5rem;\r\n\ttext-align: center;\r\n\twidth: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n\tfont-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n\tdisplay: flex;\r\n\t\r\n}\r\n\r\n.todo-task{\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\ttext-align: start;\r\n}\r\n\r\nform {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: flex-start;\r\n\tpadding: 1rem 3rem ;\r\n\tgap: 1rem;\r\n\tborder-radius: 2px;\r\n\ttransition: 0.5s;\r\n\twidth: 100%;\r\n\t\r\n}\r\n\r\n.task-input {\r\n\twidth: 100%;\r\n\tdisplay: flex;\r\n\tpadding: 1rem;\r\n\tborder-radius: 10px;\r\n\toutline: none;\r\n\tborder: none;\r\n\tbackground: #efeded;\r\n}\r\n\r\n.btn-holder {\r\n\tdisplay: flex;\r\n\tjustify-content: flex-end;\r\n\talign-items: flex-end;\r\n}\r\n\r\n#addBtn {\r\n width: max-content;\r\n padding: 0.5rem;\r\n border-radius: 20px;\r\n outline: none;\r\n border: none;\r\n background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));;\r\n \r\n}\r\n\r\n#addBtn:hover {\r\n\tbox-shadow: inset 400px 0 0 0 #d80286;\r\n\tcolor: white;\r\n}\r\n.todo-list {\r\n\tdisplay: flex;\r\n\ttext-align: center;\r\n\tflex-direction: column;\t\r\n}\r\n\r\n.todo-list h3 {\r\n\tborder-bottom: 1px solid #efecec;\r\n\tborder-top: 1px solid #efecec;\r\n\tpadding-block: 0.5rem;\r\n}\r\n.list-items {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\t\r\n}\r\n\r\n.todo-item {\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\tmargin: 0;\r\n\toverflow: hidden;\r\n    white-space: nowrap;\r\n\tborder-bottom: 1px solid #efecec;\r\n\tpadding-block: 0.5rem;\r\n\t\r\n}\r\n.todo-content {\r\n\tdisplay: flex;\r\n\tflex: 1;\r\n\tgap: 1rem;\r\n\tpadding: 0rem 3rem ;\r\n\t\r\n}\r\n\r\n.todo-icons {\r\n\tpadding-right: 3rem ;\r\n\t\r\n}\r\n\r\n.todo-output {\r\n\tdisplay: flex;\r\n\t\r\n}\r\n\r\n.todo-task {\r\n\tdisplay: flex;\r\n\tflex: 1;\r\n\tpadding-top: 0.4rem;\r\n\t\r\n}\r\n\r\n.clear-completed {\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\tpadding: 1rem;\r\n\toutline: none;\r\n\tborder: none;\r\n\tfont-family:Verdana, Geneva, Tahoma, sans-serif;\r\n\tfont-weight: 700;\r\n\tcolor: #313154;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAAA;;4EAAA;AAKA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,kBAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,yBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,wEAAA;AAAF;;AAGA;EACE,qCAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,OAAA;EACA,SAAA;EACA,eAAA;AAAF;;AAGA;EACE,mBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAAF","sourcesContent":["/* primary-color: #2fa8cc;\r\n$secondary-color: #f4f4f4;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  padding: 1rem 3rem;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem;\r\n  border-radius: 10px;\r\n  outline: none;\r\n  border: none;\r\n  background: #efeded;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: flex-end;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  flex: 1;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.todo-icons {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -943,4 +938,4 @@ window.addEventListener('load', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee4f94e6de20edc8ff362.js.map
+//# sourceMappingURL=bundle082102b51d82ac6db109.js.map

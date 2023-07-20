@@ -1,31 +1,31 @@
 {
-  "hash": "8d54f4cc53d3b3da26b3",
+  "hash": "aaeefcba0416d41ddde6",
   "version": "5.88.1",
-  "time": 9491,
-  "builtAt": 1689828471540,
+  "time": 14334,
+  "builtAt": 1689830344825,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundlebece207ec5feaeab0d10.js"
+      "bundled0e03ccb4629792986d7.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundlebece207ec5feaeab0d10.js",
-      "size": 301284,
+      "name": "bundled0e03ccb4629792986d7.js",
+      "size": 301055,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "bece207ec5feaeab0d10",
+        "contenthash": "d0e03ccb4629792986d7",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundlebece207ec5feaeab0d10.js.map"
+          "sourceMap": "bundled0e03ccb4629792986d7.js.map"
         },
-        "size": 301284
+        "size": 301055
       },
       "chunkNames": [
         "bundle"
@@ -37,14 +37,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundlebece207ec5feaeab0d10.js.map",
-          "size": 345065,
+          "name": "bundled0e03ccb4629792986d7.js.map",
+          "size": 344645,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 345065
+            "size": 344645
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -92,10 +92,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 250250,
+      "size": 250021,
       "sizes": {
         "runtime": 28044,
-        "javascript": 222206
+        "javascript": 221977
       },
       "names": [
         "bundle"
@@ -105,12 +105,12 @@
         "bundle"
       ],
       "files": [
-        "bundlebece207ec5feaeab0d10.js"
+        "bundled0e03ccb4629792986d7.js"
       ],
       "auxiliaryFiles": [
-        "bundlebece207ec5feaeab0d10.js.map"
+        "bundled0e03ccb4629792986d7.js.map"
       ],
-      "hash": "edcadb391980b786615b",
+      "hash": "1529329b49c040f79361",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -315,9 +315,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8259,
+          "size": 8030,
           "sizes": {
-            "javascript": 8259
+            "javascript": 8030
           },
           "built": true,
           "codeGenerated": true,
@@ -9283,9 +9283,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 8259,
+      "size": 8030,
       "sizes": {
-        "javascript": 8259
+        "javascript": 8030
       },
       "built": true,
       "codeGenerated": true,
@@ -10646,20 +10646,20 @@
       ],
       "assets": [
         {
-          "name": "bundlebece207ec5feaeab0d10.js",
-          "size": 301284
+          "name": "bundled0e03ccb4629792986d7.js",
+          "size": 301055
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 301284,
+      "assetsSize": 301055,
       "auxiliaryAssets": [
         {
-          "name": "bundlebece207ec5feaeab0d10.js.map",
-          "size": 345065
+          "name": "bundled0e03ccb4629792986d7.js.map",
+          "size": 344645
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 345065,
+      "auxiliaryAssetsSize": 344645,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10673,20 +10673,20 @@
       ],
       "assets": [
         {
-          "name": "bundlebece207ec5feaeab0d10.js",
-          "size": 301284
+          "name": "bundled0e03ccb4629792986d7.js",
+          "size": 301055
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 301284,
+      "assetsSize": 301055,
       "auxiliaryAssets": [
         {
-          "name": "bundlebece207ec5feaeab0d10.js.map",
-          "size": 345065
+          "name": "bundled0e03ccb4629792986d7.js.map",
+          "size": 344645
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 345065,
+      "auxiliaryAssetsSize": 344645,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10701,8 +10701,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "f2ba68f6a783b11bf3a9",
       "version": "5.88.1",
-      "time": 4906,
-      "builtAt": 1689828467057,
+      "time": 6590,
+      "builtAt": 1689830337177,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
       "assetsByChunkName": {},
