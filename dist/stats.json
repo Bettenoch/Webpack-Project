@@ -1,32 +1,32 @@
 {
-  "hash": "88b221fb40f0e335c38e",
+  "hash": "23817418eaa6c4b738e1",
   "version": "5.88.1",
-  "time": 195,
-  "builtAt": 1689795630583,
+  "time": 440,
+  "builtAt": 1689822711229,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle1eaaf799fb65115712d5.js",
-      "bundle.da6c8149d0c03f4d71ec.hot-update.js"
+      "bundle53808fbcfca6e88b8cda.js",
+      "bundle.64d329defe3440231031.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle1eaaf799fb65115712d5.js",
-      "size": 271462,
+      "name": "bundle53808fbcfca6e88b8cda.js",
+      "size": 301070,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1eaaf799fb65115712d5",
+        "contenthash": "53808fbcfca6e88b8cda",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle1eaaf799fb65115712d5.js.map"
+          "sourceMap": "bundle53808fbcfca6e88b8cda.js.map"
         },
-        "size": 271462
+        "size": 301070
       },
       "chunkNames": [
         "bundle"
@@ -38,14 +38,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle1eaaf799fb65115712d5.js.map",
-          "size": 317826,
+          "name": "bundle53808fbcfca6e88b8cda.js.map",
+          "size": 344989,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 317826
+            "size": 344989
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,19 +69,19 @@
     },
     {
       "type": "asset",
-      "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js",
-      "size": 3566,
+      "name": "bundle.64d329defe3440231031.hot-update.js",
+      "size": 4791,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "da6c8149d0c03f4d71ec",
+        "fullhash": "64d329defe3440231031",
         "related": {
-          "sourceMap": "bundle.da6c8149d0c03f4d71ec.hot-update.js.map"
+          "sourceMap": "bundle.64d329defe3440231031.hot-update.js.map"
         },
-        "size": 3566
+        "size": 4791
       },
       "chunkNames": [
         "bundle"
@@ -93,14 +93,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js.map",
-          "size": 3334,
+          "name": "bundle.64d329defe3440231031.hot-update.js.map",
+          "size": 3187,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 3334
+            "size": 3187
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -125,12 +125,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 947,
+      "size": 1283,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 947
+        "size": 1283
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -143,7 +143,7 @@
     },
     {
       "type": "asset",
-      "name": "bundle.da6c8149d0c03f4d71ec.hot-update.json",
+      "name": "bundle.64d329defe3440231031.hot-update.json",
       "size": 30,
       "emitted": true,
       "comparedForEmit": false,
@@ -151,7 +151,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "da6c8149d0c03f4d71ec",
+        "fullhash": "64d329defe3440231031",
         "size": 30
       },
       "chunkNames": [],
@@ -170,10 +170,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 230292,
+      "size": 250036,
       "sizes": {
-        "runtime": 28009,
-        "javascript": 202283
+        "runtime": 28044,
+        "javascript": 221992
       },
       "names": [
         "bundle"
@@ -183,14 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundle1eaaf799fb65115712d5.js",
-        "bundle.da6c8149d0c03f4d71ec.hot-update.js"
+        "bundle53808fbcfca6e88b8cda.js",
+        "bundle.64d329defe3440231031.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundle.da6c8149d0c03f4d71ec.hot-update.js.map",
-        "bundle1eaaf799fb65115712d5.js.map"
+        "bundle.64d329defe3440231031.hot-update.js.map",
+        "bundle53808fbcfca6e88b8cda.js.map"
       ],
-      "hash": "8a72171d516ba6aae177",
+      "hash": "04ca3b4c984c1d684019",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -321,10 +321,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
           "name": "./node_modules/boxicons/dist/boxicons.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
-          "index": 31,
-          "preOrderIndex": 31,
-          "index2": 28,
-          "postOrderIndex": 28,
+          "index": 40,
+          "preOrderIndex": 40,
+          "index2": 37,
+          "postOrderIndex": 37,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -391,6 +391,513 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
+          "size": 8259,
+          "sizes": {
+            "javascript": 8259
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "index": 34,
+          "preOrderIndex": 34,
+          "index2": 34,
+          "postOrderIndex": 34,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "8:6-146",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "22:17-24",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "26:7-21",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "52:25-39",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "53:36-47",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "53:50-64",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "module.hot.accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "55:4-68:5",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "57:6-67:7",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "58:54-65",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "58:68-82",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "64:42-53",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "64:56-70",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "66:21-28",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "77:0-116",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "77:0-116",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "78:22-29",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "78:33-47",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+              "loc": "78:50-64",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2303,
+          "sizes": {
+            "javascript": 2303
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "index": 36,
+          "preOrderIndex": 36,
+          "index2": 33,
+          "postOrderIndex": 33,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-92",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "7:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 505,
+          "sizes": {
+            "javascript": 505
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "index": 35,
+          "preOrderIndex": 35,
+          "index2": 32,
+          "postOrderIndex": 32,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "2:0-109",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "4:58-95",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
           "size": 14890,
           "sizes": {
             "javascript": 14890
@@ -414,14 +921,9 @@
           "issuerName": "./node_modules/webpack/hot/emitter.js",
           "issuerPath": [
             {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
-            },
-            {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             },
             {
               "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
@@ -810,6 +1312,576 @@
           ],
           "optimizationBailout": [],
           "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2480,
+          "sizes": {
+            "javascript": 2480
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "index": 28,
+          "preOrderIndex": 28,
+          "index2": 26,
+          "postOrderIndex": 26,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "2:6-98",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "22:13-16",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "62:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1003,
+          "sizes": {
+            "javascript": 1003
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+          "index": 30,
+          "preOrderIndex": 30,
+          "index2": 28,
+          "postOrderIndex": 28,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "4:6-95",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "17:23-36",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "34:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 285,
+          "sizes": {
+            "javascript": 285
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+          "index": 32,
+          "preOrderIndex": 32,
+          "index2": 30,
+          "postOrderIndex": 30,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "6:6-107",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "20:29-47",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 298,
+          "sizes": {
+            "javascript": 298
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+          "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+          "index": 31,
+          "preOrderIndex": 31,
+          "index2": 29,
+          "postOrderIndex": 29,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "5:6-114",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "15:24-37",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+              "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1534,
+          "sizes": {
+            "javascript": 1534
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+          "index": 29,
+          "preOrderIndex": 29,
+          "index2": 27,
+          "postOrderIndex": 27,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "3:6-88",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "19:17-23",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "61:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 380,
+          "sizes": {
+            "javascript": 380
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+          "index": 33,
+          "preOrderIndex": 33,
+          "index2": 31,
+          "postOrderIndex": 31,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "issuerName": "./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "issuerId": "./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "7:6-107",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "module": "./src/styles/index.scss",
+              "moduleName": "./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+              "resolvedModule": "./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "14:28-47",
+              "moduleId": "./src/styles/index.scss",
+              "resolvedModuleId": "./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
         },
         {
           "type": "module",
@@ -2794,25 +3866,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-          "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
-            },
-            {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/emitter.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "bundle"
           ],
@@ -3078,21 +4145,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1241,
+          "size": 1242,
           "sizes": {
-            "javascript": 1241
+            "javascript": 1242
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
           "name": "./src/index.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
           "index": 26,
           "preOrderIndex": 26,
-          "index2": 32,
-          "postOrderIndex": 32,
+          "index2": 41,
+          "postOrderIndex": 41,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3145,10 +4212,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
           "name": "./src/modules/AddTask.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "index": 28,
-          "preOrderIndex": 28,
-          "index2": 30,
-          "postOrderIndex": 30,
+          "index": 37,
+          "preOrderIndex": 37,
+          "index2": 39,
+          "postOrderIndex": 39,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3226,21 +4293,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3264,
+          "size": 3474,
           "sizes": {
-            "javascript": 3264
+            "javascript": 3474
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
           "name": "./src/modules/DisplayTask.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "index": 30,
-          "preOrderIndex": 30,
-          "index2": 29,
-          "postOrderIndex": 29,
+          "index": 39,
+          "preOrderIndex": 39,
+          "index2": 38,
+          "postOrderIndex": 38,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3484,10 +4551,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
           "name": "./src/modules/LocalStorage.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "index": 32,
-          "preOrderIndex": 32,
-          "index2": 31,
-          "postOrderIndex": 31,
+          "index": 41,
+          "preOrderIndex": 41,
+          "index2": 40,
+          "postOrderIndex": 40,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3605,10 +4672,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
           "name": "./src/modules/TaskList.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
-          "index": 29,
-          "preOrderIndex": 29,
-          "index2": 27,
-          "postOrderIndex": 27,
+          "index": 38,
+          "preOrderIndex": 38,
+          "index2": 36,
+          "postOrderIndex": 36,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3844,21 +4911,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1,
+          "size": 2452,
           "sizes": {
-            "javascript": 1
+            "javascript": 2452
           },
           "built": false,
           "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": true,
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.css",
-          "name": "./src/styles/index.css",
-          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.css",
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
           "index": 27,
           "preOrderIndex": 27,
-          "index2": 26,
-          "postOrderIndex": 26,
+          "index2": 35,
+          "postOrderIndex": 35,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3875,7 +4942,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": "./src/styles/index.css",
+          "id": "./src/styles/index.scss",
           "issuerId": "./src/index.js",
           "chunks": [
             "bundle"
@@ -3891,14 +4958,16 @@
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
-              "userRequest": "./styles/index.css",
-              "loc": "1:0-28",
+              "userRequest": "./styles/index.scss",
+              "loc": "1:0-29",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
           ],
           "usedExports": null,
-          "providedExports": null,
+          "providedExports": [
+            "default"
+          ],
           "optimizationBailout": [],
           "depth": 1
         },
@@ -4302,6 +5371,42 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
+          "size": 35,
+          "sizes": {
+            "runtime": 35
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/nonce",
+          "name": "webpack/runtime/nonce",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
           "size": 923,
           "sizes": {
             "runtime": 923
@@ -4473,21 +5578,21 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1241,
+      "size": 1242,
       "sizes": {
-        "javascript": 1241
+        "javascript": 1242
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
       "name": "./src/index.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
       "index": 26,
       "preOrderIndex": 26,
-      "index2": 32,
-      "postOrderIndex": 32,
+      "index2": 41,
+      "postOrderIndex": 41,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -5626,25 +6731,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-      "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
-        },
-        {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/emitter.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "bundle"
       ],
@@ -5868,21 +6968,21 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1,
+      "size": 2452,
       "sizes": {
-        "javascript": 1
+        "javascript": 2452
       },
       "built": false,
       "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": true,
-      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.css",
-      "name": "./src/styles/index.css",
-      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.css",
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "name": "./src/styles/index.scss",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
       "index": 27,
       "preOrderIndex": 27,
-      "index2": 26,
-      "postOrderIndex": 26,
+      "index2": 35,
+      "postOrderIndex": 35,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -5898,7 +6998,7 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": "./src/styles/index.css",
+      "id": "./src/styles/index.scss",
       "issuerId": "./src/index.js",
       "chunks": [
         "bundle"
@@ -5914,14 +7014,16 @@
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
-          "userRequest": "./styles/index.css",
-          "loc": "1:0-28",
+          "userRequest": "./styles/index.scss",
+          "loc": "1:0-29",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
       ],
       "usedExports": null,
-      "providedExports": null,
+      "providedExports": [
+        "default"
+      ],
       "optimizationBailout": [],
       "depth": 1
     },
@@ -5940,10 +7042,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
       "name": "./src/modules/AddTask.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-      "index": 28,
-      "preOrderIndex": 28,
-      "index2": 30,
-      "postOrderIndex": 30,
+      "index": 37,
+      "preOrderIndex": 37,
+      "index2": 39,
+      "postOrderIndex": 39,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -6031,10 +7133,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
       "name": "./src/modules/TaskList.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
-      "index": 29,
-      "preOrderIndex": 29,
-      "index2": 27,
-      "postOrderIndex": 27,
+      "index": 38,
+      "preOrderIndex": 38,
+      "index2": 36,
+      "postOrderIndex": 36,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -6269,21 +7371,21 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3264,
+      "size": 3474,
       "sizes": {
-        "javascript": 3264
+        "javascript": 3474
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
       "name": "./src/modules/DisplayTask.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-      "index": 30,
-      "preOrderIndex": 30,
-      "index2": 29,
-      "postOrderIndex": 29,
+      "index": 39,
+      "preOrderIndex": 39,
+      "index2": 38,
+      "postOrderIndex": 38,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -6526,10 +7628,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
       "name": "./src/modules/LocalStorage.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-      "index": 32,
-      "preOrderIndex": 32,
-      "index2": 31,
-      "postOrderIndex": 31,
+      "index": 41,
+      "preOrderIndex": 41,
+      "index2": 40,
+      "postOrderIndex": 40,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -7581,14 +8683,9 @@
       "issuerName": "./node_modules/webpack/hot/emitter.js",
       "issuerPath": [
         {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
-        },
-        {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
-          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         },
         {
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\webpack\\hot\\emitter.js",
@@ -7644,6 +8741,876 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 2480,
+      "sizes": {
+        "javascript": 2480
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+      "index": 28,
+      "preOrderIndex": 28,
+      "index2": 26,
+      "postOrderIndex": 26,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "2:6-98",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "22:13-16",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "62:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1534,
+      "sizes": {
+        "javascript": 1534
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+      "index": 29,
+      "preOrderIndex": 29,
+      "index2": 27,
+      "postOrderIndex": 27,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "3:6-88",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "19:17-23",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleDomAPI.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "61:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1003,
+      "sizes": {
+        "javascript": 1003
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+      "index": 30,
+      "preOrderIndex": 30,
+      "index2": 28,
+      "postOrderIndex": 28,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "4:6-95",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "17:23-36",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertBySelector.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "34:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 298,
+      "sizes": {
+        "javascript": 298
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+      "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+      "index": 31,
+      "preOrderIndex": 31,
+      "index2": 29,
+      "postOrderIndex": 29,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "5:6-114",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "15:24-37",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+          "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\setAttributesWithoutAttributes.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 285,
+      "sizes": {
+        "javascript": 285
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+      "index": 32,
+      "preOrderIndex": 32,
+      "index2": 30,
+      "postOrderIndex": 30,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "6:6-107",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "20:29-47",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\insertStyleElement.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 380,
+      "sizes": {
+        "javascript": 380
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+      "index": 33,
+      "preOrderIndex": 33,
+      "index2": 31,
+      "postOrderIndex": 31,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "7:6-107",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "14:28-47",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\runtime\\styleTagTransform.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 8259,
+      "sizes": {
+        "javascript": 8259
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "index": 34,
+      "preOrderIndex": 34,
+      "index2": 34,
+      "postOrderIndex": 34,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerId": "./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "8:6-146",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "22:17-24",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "26:7-21",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "52:25-39",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "53:36-47",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "53:50-64",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "module.hot.accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "55:4-68:5",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "57:6-67:7",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "58:54-65",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "58:68-82",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "64:42-53",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "64:56-70",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "66:21-28",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "77:0-116",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "77:0-116",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "78:22-29",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "78:33-47",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./src/styles/index.scss",
+          "moduleName": "./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss",
+          "loc": "78:50-64",
+          "moduleId": "./src/styles/index.scss",
+          "resolvedModuleId": "./src/styles/index.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 13059,
       "sizes": {
         "javascript": 13059
@@ -7655,10 +9622,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
       "name": "./node_modules/boxicons/dist/boxicons.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
-      "index": 31,
-      "preOrderIndex": 31,
-      "index2": 28,
-      "postOrderIndex": 28,
+      "index": 40,
+      "preOrderIndex": 40,
+      "index2": 37,
+      "postOrderIndex": 37,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -8030,6 +9997,204 @@
         "highSurrogateFrom",
         "highSurrogateTo"
       ],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 505,
+      "sizes": {
+        "javascript": 505
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+      "index": 35,
+      "preOrderIndex": 35,
+      "index2": 32,
+      "postOrderIndex": 32,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "2:0-109",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "4:58-95",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2303,
+      "sizes": {
+        "javascript": 2303
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "index": 36,
+      "preOrderIndex": 36,
+      "index2": 33,
+      "postOrderIndex": 33,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-92",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
       "optimizationBailout": [],
       "depth": 3
     },
@@ -8422,6 +10587,41 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
+      "size": 35,
+      "sizes": {
+        "runtime": 35
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/nonce",
+      "name": "webpack/runtime/nonce",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
       "size": 923,
       "sizes": {
         "runtime": 923
@@ -8462,28 +10662,28 @@
       ],
       "assets": [
         {
-          "name": "bundle1eaaf799fb65115712d5.js",
-          "size": 271462
+          "name": "bundle53808fbcfca6e88b8cda.js",
+          "size": 301070
         },
         {
-          "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js",
-          "size": 3566
+          "name": "bundle.64d329defe3440231031.hot-update.js",
+          "size": 4791
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 275028,
+      "assetsSize": 305861,
       "auxiliaryAssets": [
         {
-          "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js.map",
-          "size": 3334
+          "name": "bundle.64d329defe3440231031.hot-update.js.map",
+          "size": 3187
         },
         {
-          "name": "bundle1eaaf799fb65115712d5.js.map",
-          "size": 317826
+          "name": "bundle53808fbcfca6e88b8cda.js.map",
+          "size": 344989
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 321160,
+      "auxiliaryAssetsSize": 348176,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -8497,28 +10697,28 @@
       ],
       "assets": [
         {
-          "name": "bundle1eaaf799fb65115712d5.js",
-          "size": 271462
+          "name": "bundle53808fbcfca6e88b8cda.js",
+          "size": 301070
         },
         {
-          "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js",
-          "size": 3566
+          "name": "bundle.64d329defe3440231031.hot-update.js",
+          "size": 4791
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 275028,
+      "assetsSize": 305861,
       "auxiliaryAssets": [
         {
-          "name": "bundle.da6c8149d0c03f4d71ec.hot-update.js.map",
-          "size": 3334
+          "name": "bundle.64d329defe3440231031.hot-update.js.map",
+          "size": 3187
         },
         {
-          "name": "bundle1eaaf799fb65115712d5.js.map",
-          "size": 317826
+          "name": "bundle53808fbcfca6e88b8cda.js.map",
+          "size": 344989
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 321160,
+      "auxiliaryAssetsSize": 348176,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
