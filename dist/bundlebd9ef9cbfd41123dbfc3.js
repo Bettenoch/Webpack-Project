@@ -53,12 +53,11 @@ function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key i
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 /* eslint-disable linebreak-style */
-/* eslint-disable new-cap */
 
 
-var inputTasks = /*#__PURE__*/_createClass(function inputTasks() {
+var InputTasks = /*#__PURE__*/_createClass(function InputTasks() {
   var _this = this;
-  _classCallCheck(this, inputTasks);
+  _classCallCheck(this, InputTasks);
   _defineProperty(this, "initialize", function () {
     _TaskList_js__WEBPACK_IMPORTED_MODULE_0__.taskField.innerHTML = '';
   });
@@ -73,15 +72,15 @@ var inputTasks = /*#__PURE__*/_createClass(function inputTasks() {
       var todo = document.createElement('li');
       todo.classList.add('todo-item');
       todo.id = idx;
-      todo.innerHTML = "\n                <article class=\"todo-content\">\n                    <input type=\"checkbox\" id=\"task-".concat(task.idx, "\" class=\"todo-output\" name=\"task-").concat(task.idx, "\" ").concat(task.completed ? 'checked' : 'unchecked', ">\n                    <p contenteditable=\"true\" class=\"todo-task\">").concat(task.description, "</p>\n                </article>\n                <article class=\"todo-icons\">\n                    <box-icon type='solid' name='comment-x' class='Delete'></box-icon>\n                    <box-icon type='solid' name='edit' class='edit'></box-icon>\n                    <box-icon name='dots-vertical'></box-icon>\n                </article>\n            \n            ");
+      todo.innerHTML = "\n                <article class=\"todo-content\">\n                    <input type=\"checkbox\" id=\"task-".concat(task.idx, "\" class=\"todo-output\" name=\"task-").concat(task.idx, "\" ").concat(task.completed ? 'checked' : 'unchecked', ">\n                    <p contenteditable=\"true\" class=\"todo-task\">").concat(task.description, "</p>\n                </article>\n                <article class=\"todo-icons\">\n                    <box-icon name='dots-vertical'></box-icon>\n                </article>\n            \n            ");
       _TaskList_js__WEBPACK_IMPORTED_MODULE_0__.taskField.appendChild(todo);
     });
   });
   this.tasks = [];
 });
-var newTasks = new inputTasks();
-var _inputTasks = new inputTasks(),
-  addItems = _inputTasks.addItems;
+var newTasks = new InputTasks();
+var _InputTasks = new InputTasks(),
+  addItems = _InputTasks.addItems;
 
 
 /***/ }),
@@ -184,10 +183,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `/* primary-color: #2fa8cc;
-\$secondary-color: #f4f4f4;
-\$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
-:root {
+___CSS_LOADER_EXPORT___.push([module.id, `:root {
   --primary: #ea40a4;
   --business: #3a82ee;
   --personal: var(--primary);
@@ -247,25 +243,35 @@ body {
   display: flex;
 }
 
+.t-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 1rem 3rem;
   gap: 1rem;
   border-radius: 2px;
   transition: 0.5s;
   width: 100%;
 }
 
+.form-input {
+  background: #efeded;
+  border-radius: 10px;
+  border-top: 1px solid #efecec;
+}
+
 .task-input {
   width: 100%;
   display: flex;
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 1rem 3rem;
   outline: none;
   border: none;
-  background: #efeded;
+  font-style: italic;
 }
 
 .btn-holder {
@@ -347,7 +353,7 @@ form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   color: #313154;
-}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAAA;;4EAAA;AAKA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,kBAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,yBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,wEAAA;AAAF;;AAGA;EACE,qCAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,OAAA;EACA,SAAA;EACA,eAAA;AAAF;;AAGA;EACE,mBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAAF","sourcesContent":["/* primary-color: #2fa8cc;\r\n$secondary-color: #f4f4f4;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  padding: 1rem 3rem;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem;\r\n  border-radius: 10px;\r\n  outline: none;\r\n  border: none;\r\n  background: #efeded;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: flex-end;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  flex: 1;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.todo-icons {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAEA;EACE,mBAAA;EACA,mBAAA;EACA,6BAAA;AACF;;AACA;EACE,WAAA;EACA,aAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;AAEF;;AACA;EACE,aAAA;EACA,yBAAA;EACA,qBAAA;AAEF;;AACA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,wEAAA;AAEF;;AACA;EACE,qCAAA;EACA,YAAA;AAEF;;AACA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAEF;;AACA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAEF;;AACA;EACE,aAAA;EACA,sBAAA;AAEF;;AACA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAEF;;AACA;EACE,aAAA;EACA,OAAA;EACA,SAAA;EACA,eAAA;AAEF;;AACA;EACE,mBAAA;AAEF;;AACA;EACE,aAAA;AAEF;;AACA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAEF;;AACA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAEF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\n.t-text {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  padding: 0rem 3rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n.form-input {\r\n  background: #efeded;\r\n  border-radius: 10px;\r\n  border-top: 1px solid #efecec;\r\n}\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem 3rem;\r\n  outline: none;\r\n  border: none;\r\n  font-style: italic;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: flex-end;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  flex: 1;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.todo-icons {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -908,17 +914,6 @@ _modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.userInput.addEventListener('ke
     }
   }
 });
-_modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.addItem.addEventListener('click', function (e) {
-  if (_modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.userInput.value === '') {
-    e.preventDefault();
-  } else {
-    var todo = (0,_modules_AddTask_js__WEBPACK_IMPORTED_MODULE_1__["default"])(e);
-    _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.addItems(todo);
-    _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.initialize();
-    (0,_modules_LocalStorage_js__WEBPACK_IMPORTED_MODULE_4__.store)();
-    _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.displayTask();
-  }
-});
 _modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.taskField.addEventListener('keypress', function (e) {
   if (e.target.className === 'todo-task' && e.key === 'Enter') {
     if (e.target.textContent) {
@@ -938,4 +933,4 @@ window.addEventListener('load', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle082102b51d82ac6db109.js.map
+//# sourceMappingURL=bundlebd9ef9cbfd41123dbfc3.js.map
