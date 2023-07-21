@@ -1,35 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/modules/AddTask.js":
-/*!********************************!*\
-  !*** ./src/modules/AddTask.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _TaskList_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TaskList.js */ "./src/modules/TaskList.js");
-/* harmony import */ var _DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DisplayTask.js */ "./src/modules/DisplayTask.js");
-/* eslint-disable linebreak-style */
-
-
-var addItems = function addItems(e) {
-  var todo = new _TaskList_js__WEBPACK_IMPORTED_MODULE_0__["default"](_TaskList_js__WEBPACK_IMPORTED_MODULE_0__.userInput.value, false, _DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__.newTasks.tasks.length + 1);
-  if (_TaskList_js__WEBPACK_IMPORTED_MODULE_0__.userInput.value === '') {
-    e.preventDefault();
-  } else {
-    _TaskList_js__WEBPACK_IMPORTED_MODULE_0__.userInput.value = '';
-  }
-  return todo;
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addItems);
-
-/***/ }),
-
 /***/ "./src/modules/DisplayTask.js":
 /*!************************************!*\
   !*** ./src/modules/DisplayTask.js ***!
@@ -39,8 +10,7 @@ var addItems = function addItems(e) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   addItems: () => (/* binding */ addItems),
-/* harmony export */   newTasks: () => (/* binding */ newTasks)
+/* harmony export */   "default": () => (/* binding */ Algos)
 /* harmony export */ });
 /* harmony import */ var _TaskList_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TaskList.js */ "./src/modules/TaskList.js");
 /* harmony import */ var boxicons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! boxicons */ "./node_modules/boxicons/dist/boxicons.js");
@@ -52,66 +22,141 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-/* eslint-disable linebreak-style */
 
 
-var InputTasks = /*#__PURE__*/_createClass(function InputTasks() {
-  var _this = this;
-  _classCallCheck(this, InputTasks);
-  _defineProperty(this, "initialize", function () {
-    _TaskList_js__WEBPACK_IMPORTED_MODULE_0__.taskField.innerHTML = '';
+var Algos = /*#__PURE__*/_createClass(function Algos() {
+  _classCallCheck(this, Algos);
+});
+_defineProperty(Algos, "storeInLS", function (todo) {
+  var task = JSON.stringify(todo);
+  localStorage.setItem('todoList', task);
+});
+_defineProperty(Algos, "fetchFromLS", function () {
+  var todoList;
+  if (JSON.parse(localStorage.getItem('todoList')) === null) {
+    todoList = [];
+  } else {
+    todoList = JSON.parse(localStorage.getItem('todoList'));
+  }
+  return todoList;
+});
+_defineProperty(Algos, "assignIndex", function (todoList) {
+  todoList.forEach(function (todo, i) {
+    todo.index = i + 1;
   });
-  _defineProperty(this, "addItems", function (task) {
-    _this.tasks.push(task);
+});
+_defineProperty(Algos, "deleteTodo", function (id) {
+  var todoList = Algos.fetchFromLS();
+  var deletedTodo = todoList[id];
+  todoList = todoList.filter(function (item) {
+    return item !== deletedTodo;
   });
-  _defineProperty(this, "updateTask", function (descp, id) {
-    _this.tasks[id].description = descp;
+  Algos.assignIndex(todoList);
+  Algos.storeInLS(todoList);
+});
+_defineProperty(Algos, "updateTask", function (descp, id) {
+  var todoList = Algos.fetchFromLS();
+  var taskUpdate = todoList[id];
+  todoList.forEach(function (item) {
+    if (item === taskUpdate) {
+      item.description = descp;
+    }
   });
-  _defineProperty(this, "displayTask", function () {
-    _this.tasks.forEach(function (task, idx) {
-      var todo = document.createElement('li');
-      todo.classList.add('todo-item');
-      todo.id = idx;
-      todo.innerHTML = "\n                <article class=\"todo-content\">\n                    <input type=\"checkbox\" id=\"task-".concat(task.idx, "\" class=\"todo-output\" name=\"task-").concat(task.idx, "\" ").concat(task.completed ? 'checked' : 'unchecked', ">\n                    <p contenteditable=\"true\" class=\"todo-task\">").concat(task.description, "</p>\n                </article>\n                <article class=\"todo-icons\">\n                    <box-icon name='dots-vertical'></box-icon>\n                </article>\n            \n            ");
-      _TaskList_js__WEBPACK_IMPORTED_MODULE_0__.taskField.appendChild(todo);
+  Algos.storeInLS(todoList);
+  Algos.displayTodos();
+});
+_defineProperty(Algos, "addTask", function () {
+  document.querySelectorAll('.trash-can').forEach(function (btn) {
+    return btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var id;
+      if (btn.id > 0) {
+        id = btn.id - 1;
+      } else {
+        id = 0;
+      }
+      Algos.deleteTodo(id);
+      Algos.displayTodos();
     });
   });
-  this.tasks = [];
 });
-var newTasks = new InputTasks();
-var _InputTasks = new InputTasks(),
-  addItems = _InputTasks.addItems;
-
-
-/***/ }),
-
-/***/ "./src/modules/LocalStorage.js":
-/*!*************************************!*\
-  !*** ./src/modules/LocalStorage.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   fetchItems: () => (/* binding */ fetchItems),
-/* harmony export */   store: () => (/* binding */ store)
-/* harmony export */ });
-/* harmony import */ var _DisplayTask_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DisplayTask.js */ "./src/modules/DisplayTask.js");
-/* eslint-disable linebreak-style */
-
-var store = function store() {
-  localStorage.setItem('tasks', JSON.stringify(_DisplayTask_js__WEBPACK_IMPORTED_MODULE_0__.newTasks.tasks));
-};
-var fetchItems = function fetchItems() {
-  var fetchedTodos = JSON.parse(localStorage.getItem('tasks'));
-  if (fetchedTodos === null) {
-    return;
-  }
-  fetchedTodos.forEach(function (todo) {
-    _DisplayTask_js__WEBPACK_IMPORTED_MODULE_0__.newTasks.addItems(todo);
+_defineProperty(Algos, "editTodo", function (id) {
+  var todoList = Algos.fetchFromLS();
+  var editedTodo = todoList[id];
+  document.getElementById('main-form').style.display = 'none';
+  var taskEdit = document.querySelector('.edit-input');
+  taskEdit.value = editedTodo.description;
+  taskEdit.setAttribute('id', id);
+  document.querySelector('.edit-Todo-Form').style.display = 'block';
+  taskEdit.focus();
+});
+_defineProperty(Algos, "editTodoBtn", function () {
+  document.querySelectorAll('.edit-Icon').forEach(function (btn) {
+    return btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var id;
+      if (btn.id > 0) {
+        id = btn.id - 1;
+      } else {
+        id = 0;
+      }
+      Algos.editTodo(id);
+    });
   });
-};
+});
+_defineProperty(Algos, "editTodoClick", function () {
+  document.querySelectorAll('.todoTask').forEach(function (todo) {
+    return todo.addEventListener('dblclick', function (e) {
+      e.preventDefault();
+      var id;
+      if (todo.id > 0) {
+        id = todo.id - 1;
+      } else {
+        id = 0;
+      }
+      Algos.editTodo(id);
+    });
+  });
+});
+_defineProperty(Algos, "CreateTodo", function (_ref, currentStatus, iscompleted) {
+  var description = _ref.description,
+    index = _ref.index;
+  var todo = document.createElement('li');
+  todo.className = 'todo-item';
+  todo.innerHTML = "\n        <article class=\"task-content\">\n          <input type=\"checkbox\" id=\"".concat(index, "\" name=\"\" value=\"\" class=\"checkbox\" ").concat(currentStatus, ">\n          <h3 id=\"").concat(index, "\" class=\"todoTask ").concat(iscompleted, "\">").concat(description, "</h3>\n        </article>\n        <article class=\"todo-icons\">\n          <button class=\"edit-Icon\" id=\"").concat(index, "\"><box-icon name='edit' class='delete-btn'></box-icon></button>\n          <button class=\"trash-can\" id=\"").concat(index, "\"><box-icon type='solid' name='message-x' class='edit-btn'></box-icon></button>\n        </article>\n        ");
+  return todo;
+});
+_defineProperty(Algos, "displayTodos", function () {
+  var todoList = Algos.fetchFromLS();
+  var todoCont = document.getElementById('todo-list-items');
+  todoCont.innerHTML = '';
+  todoList.forEach(function (item) {
+    var currentStatus;
+    var iscompleted;
+    if (item.completed === true) {
+      currentStatus = 'checked';
+      iscompleted = 'completed';
+    } else {
+      currentStatus = '';
+      iscompleted = '';
+    }
+    todoCont.append(Algos.CreateTodo(item, currentStatus, iscompleted));
+  });
+  Algos.addTask();
+  Algos.editTodoBtn();
+  Algos.editTodoClick();
+  var event = new Event('updatedList');
+  document.dispatchEvent(event);
+});
+_defineProperty(Algos, "addTodoItems", function (description) {
+  var todoList = Algos.fetchFromLS();
+  var index = todoList.length + 1;
+  var newTask = new _TaskList_js__WEBPACK_IMPORTED_MODULE_0__["default"](description, index);
+  todoList.push(newTask);
+  Algos.storeInLS(todoList);
+  Algos.displayTodos();
+});
+
 
 /***/ }),
 
@@ -124,11 +169,7 @@ var fetchItems = function fetchItems() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   addItem: () => (/* binding */ addItem),
-/* harmony export */   clearTask: () => (/* binding */ clearTask),
-/* harmony export */   "default": () => (/* binding */ Tasks),
-/* harmony export */   taskField: () => (/* binding */ taskField),
-/* harmony export */   userInput: () => (/* binding */ userInput)
+/* harmony export */   "default": () => (/* binding */ Tasks)
 /* harmony export */ });
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
@@ -136,18 +177,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-/* eslint-disable linebreak-style */
-var Tasks = /*#__PURE__*/_createClass(function Tasks(description, completed, index) {
+var Tasks = /*#__PURE__*/_createClass(function Tasks(description, index) {
+  var completed = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
   _classCallCheck(this, Tasks);
   this.description = description;
-  this.completed = completed;
   this.index = index;
+  this.completed = completed;
 });
 
-var addItem = document.getElementById('addBtn');
-var clearTask = document.querySelector('.clear-completed');
-var userInput = document.getElementById('task-input');
-var taskField = document.getElementById('todo-list-items');
 
 /***/ }),
 
@@ -246,7 +283,7 @@ body {
 .t-text {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 3rem;
+  padding: 0 3rem;
 }
 
 form {
@@ -257,6 +294,10 @@ form {
   border-radius: 2px;
   transition: 0.5s;
   width: 100%;
+}
+
+#edit-form {
+  display: none;
 }
 
 .form-input {
@@ -276,8 +317,9 @@ form {
 
 .btn-holder {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 3rem;
 }
 
 #addBtn {
@@ -286,7 +328,7 @@ form {
   border-radius: 20px;
   outline: none;
   border: none;
-  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));
+  background: linear-gradient(45deg, rgb(208, 52, 52), rgb(85, 85, 189));
 }
 
 #addBtn:hover {
@@ -323,13 +365,48 @@ form {
 
 .todo-content {
   display: flex;
-  flex: 1;
   gap: 1rem;
   padding: 0 3rem;
 }
 
+.task-content {
+  display: flex;
+  padding: 0 3rem;
+  gap: 1rem;
+}
+
 .todo-icons {
+  display: flex;
+  gap: 0.5rem;
   padding-right: 3rem;
+  outline: none;
+  border: none;
+}
+
+.edit-Icon,
+.trash-can {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.trash-can {
+  color: #4b1f38 !important;
+}
+
+.trash-can:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.delete-btn {
+  color: #4b1f38 !important;
+  display: flex;
+}
+
+.delete-btn:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 .todo-output {
@@ -353,7 +430,7 @@ form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   color: #313154;
-}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAEA;EACE,mBAAA;EACA,mBAAA;EACA,6BAAA;AACF;;AACA;EACE,WAAA;EACA,aAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;AAEF;;AACA;EACE,aAAA;EACA,yBAAA;EACA,qBAAA;AAEF;;AACA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,wEAAA;AAEF;;AACA;EACE,qCAAA;EACA,YAAA;AAEF;;AACA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAEF;;AACA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAEF;;AACA;EACE,aAAA;EACA,sBAAA;AAEF;;AACA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAEF;;AACA;EACE,aAAA;EACA,OAAA;EACA,SAAA;EACA,eAAA;AAEF;;AACA;EACE,mBAAA;AAEF;;AACA;EACE,aAAA;AAEF;;AACA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAEF;;AACA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAEF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\n.t-text {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  padding: 0rem 3rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n.form-input {\r\n  background: #efeded;\r\n  border-radius: 10px;\r\n  border-top: 1px solid #efecec;\r\n}\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem 3rem;\r\n  outline: none;\r\n  border: none;\r\n  font-style: italic;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: flex-end;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  flex: 1;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.todo-icons {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,mBAAA;EACA,mBAAA;EACA,6BAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,2BAAA;EACA,uBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,sEAAA;AAAF;;AAGA;EACE,qCAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,eAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;AAAF;;AAGA;;EAEE,aAAA;EACA,YAAA;EACA,gBAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,yBAAA;EACA,aAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAAF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\n.t-text {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  padding: 0 3rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n\r\n#edit-form {\r\n  display: none;\r\n}\r\n\r\n.form-input {\r\n  background: #efeded;\r\n  border-radius: 10px;\r\n  border-top: 1px solid #efecec;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem 3rem;\r\n  outline: none;\r\n  border: none;\r\n  font-style: italic;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: flex-start;\r\n  padding: 1rem 3rem;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(208, 52, 52), rgb(85, 85, 189));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.task-content {\r\n  display: flex;\r\n  padding: 0 3rem;\r\n  gap: 1rem;\r\n}\r\n\r\n.todo-icons {\r\n  display: flex;\r\n  gap: 0.5rem;\r\n  padding-right: 3rem;\r\n  outline: none;\r\n  border: none;\r\n}\r\n\r\n.edit-Icon,\r\n.trash-can {\r\n  outline: none;\r\n  border: none;\r\n  background: none;\r\n}\r\n\r\n.trash-can {\r\n  color: #4b1f38 !important;\r\n}\r\n\r\n.trash-can:hover {\r\n  transform: scale(1.2);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.delete-btn {\r\n  color: #4b1f38 !important;\r\n  display: flex;\r\n}\r\n\r\n.delete-btn:hover {\r\n  transform: scale(1.5);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -891,46 +968,31 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.scss */ "./src/styles/index.scss");
-/* harmony import */ var _modules_AddTask_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/AddTask.js */ "./src/modules/AddTask.js");
-/* harmony import */ var _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/DisplayTask.js */ "./src/modules/DisplayTask.js");
-/* harmony import */ var _modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/TaskList.js */ "./src/modules/TaskList.js");
-/* harmony import */ var _modules_LocalStorage_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/LocalStorage.js */ "./src/modules/LocalStorage.js");
-/* eslint-disable linebreak-style */
+/* harmony import */ var _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/DisplayTask.js */ "./src/modules/DisplayTask.js");
 
 
-
-
-
-_modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.userInput.addEventListener('keypress', function (event) {
-  if (event.key === 'Enter') {
-    if (_modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.userInput.value === '') {
-      event.preventDefault();
-    } else {
-      var todo = (0,_modules_AddTask_js__WEBPACK_IMPORTED_MODULE_1__["default"])(event);
-      _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.addItems(todo);
-      _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.initialize();
-      (0,_modules_LocalStorage_js__WEBPACK_IMPORTED_MODULE_4__.store)();
-      _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.displayTask();
-    }
-  }
+var mainForm = document.getElementById('main-form');
+var editForm = document.getElementById('edit-form');
+var userInput = document.getElementById('task-input');
+var editInput = document.getElementById('edit-input');
+mainForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__["default"].addTodoItems(userInput.value);
+  userInput.value = '';
 });
-_modules_TaskList_js__WEBPACK_IMPORTED_MODULE_3__.taskField.addEventListener('keypress', function (e) {
-  if (e.target.className === 'todo-task' && e.key === 'Enter') {
-    if (e.target.textContent) {
-      e.preventDefault();
-      _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.updateTask(e.target.textContent, e.target.parentElement.id);
-      (0,_modules_LocalStorage_js__WEBPACK_IMPORTED_MODULE_4__.store)();
-    } else {
-      e.preventDefault();
-    }
-  }
+editForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  var id = Number(editInput.getAttribute('id'));
+  _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__["default"].updateTask(editInput.value, id);
+  editInput.value = '';
+  document.getElementById('main-form').style.display = 'block';
+  editForm.style.display = 'none';
 });
-window.addEventListener('load', function () {
-  (0,_modules_LocalStorage_js__WEBPACK_IMPORTED_MODULE_4__.fetchItems)();
-  _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_2__.newTasks.displayTask();
+window.addEventListener('DOMContentLoaded', function () {
+  _modules_DisplayTask_js__WEBPACK_IMPORTED_MODULE_1__["default"].displayTodos();
 });
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlebd9ef9cbfd41123dbfc3.js.map
+//# sourceMappingURL=bundlea1135dc3c22f671b9589.js.map
