@@ -1,31 +1,31 @@
 {
-  "hash": "af2bfccc76a288bb5323",
+  "hash": "174d543bf01d4f34ba28",
   "version": "5.88.1",
-  "time": 8995,
-  "builtAt": 1689908793073,
+  "time": 4816,
+  "builtAt": 1689968269967,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundlea1135dc3c22f671b9589.js"
+      "bundle12116c996a625535e032.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundlea1135dc3c22f671b9589.js",
-      "size": 55542,
+      "name": "bundle12116c996a625535e032.js",
+      "size": 62184,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "a1135dc3c22f671b9589",
+        "contenthash": "12116c996a625535e032",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundlea1135dc3c22f671b9589.js.map"
+          "sourceMap": "bundle12116c996a625535e032.js.map"
         },
-        "size": 55542
+        "size": 62184
       },
       "chunkNames": [
         "bundle"
@@ -37,14 +37,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundlea1135dc3c22f671b9589.js.map",
-          "size": 58440,
+          "name": "bundle12116c996a625535e032.js.map",
+          "size": 64218,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 58440
+            "size": 64218
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,12 +69,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 2551,
+      "size": 2470,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
-        "size": 2551
+        "size": 2470
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -92,9 +92,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 42893,
+      "size": 48389,
       "sizes": {
-        "javascript": 41921,
+        "javascript": 47417,
         "runtime": 972
       },
       "names": [
@@ -105,12 +105,12 @@
         "bundle"
       ],
       "files": [
-        "bundlea1135dc3c22f671b9589.js"
+        "bundle12116c996a625535e032.js"
       ],
       "auxiliaryFiles": [
-        "bundlea1135dc3c22f671b9589.js.map"
+        "bundle12116c996a625535e032.js.map"
       ],
-      "hash": "25cc8e6536d7546f873c",
+      "hash": "10934a314c65f62f2f32",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -204,9 +204,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 9638,
+          "size": 11817,
           "sizes": {
-            "javascript": 9638
+            "javascript": 11817
           },
           "built": true,
           "codeGenerated": true,
@@ -1143,9 +1143,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 807,
+          "size": 1070,
           "sizes": {
-            "javascript": 807
+            "javascript": 1070
           },
           "built": true,
           "codeGenerated": true,
@@ -1156,8 +1156,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 13,
-          "postOrderIndex": 13,
+          "index2": 14,
+          "postOrderIndex": 14,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1199,9 +1199,101 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6440,
+          "size": 3062,
           "sizes": {
-            "javascript": 6440
+            "javascript": 3062
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "name": "./src/modules/DeleteCompleted.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "index": 14,
+          "preOrderIndex": 14,
+          "index2": 13,
+          "postOrderIndex": 13,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/DeleteCompleted.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/DeleteCompleted.js",
+              "loc": "3:0-57",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/DeleteCompleted.js",
+              "loc": "21:69-97",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/DeleteCompleted.js",
+              "loc": "24:4-31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 6432,
+          "sizes": {
+            "javascript": 6432
           },
           "built": true,
           "codeGenerated": true,
@@ -1261,7 +1353,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "9:2-20",
+              "loc": "10:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1275,7 +1367,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "15:2-18",
+              "loc": "16:2-18",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -1289,9 +1381,121 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "21:2-20",
+              "loc": "26:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "8:0-37",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "13:17-34",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "15:2-17",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "16:2-20",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "38:17-34",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "42:2-19",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "43:2-17",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "module": "./src/modules/DeleteCompleted.js",
+              "moduleName": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+              "resolvedModule": "./src/modules/DeleteCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayTask.js",
+              "loc": "44:2-20",
+              "moduleId": "./src/modules/DeleteCompleted.js",
+              "resolvedModuleId": "./src/modules/DeleteCompleted.js"
             }
           ],
           "usedExports": null,
@@ -1645,9 +1849,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 807,
+      "size": 1070,
       "sizes": {
-        "javascript": 807
+        "javascript": 1070
       },
       "built": true,
       "codeGenerated": true,
@@ -1658,8 +1862,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 13,
-      "postOrderIndex": 13,
+      "index2": 14,
+      "postOrderIndex": 14,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -1763,9 +1967,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6440,
+      "size": 6432,
       "sizes": {
-        "javascript": 6440
+        "javascript": 6432
       },
       "built": true,
       "codeGenerated": true,
@@ -1824,7 +2028,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "9:2-20",
+          "loc": "10:2-20",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -1838,7 +2042,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "15:2-18",
+          "loc": "16:2-18",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -1852,7 +2056,210 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "21:2-20",
+          "loc": "26:2-20",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "8:0-37",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "13:17-34",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "15:2-17",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "16:2-20",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "38:17-34",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "42:2-19",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "43:2-17",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "module": "./src/modules/DeleteCompleted.js",
+          "moduleName": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+          "resolvedModule": "./src/modules/DeleteCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayTask.js",
+          "loc": "44:2-20",
+          "moduleId": "./src/modules/DeleteCompleted.js",
+          "resolvedModuleId": "./src/modules/DeleteCompleted.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 3062,
+      "sizes": {
+        "javascript": 3062
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+      "name": "./src/modules/DeleteCompleted.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DeleteCompleted.js",
+      "index": 14,
+      "preOrderIndex": 14,
+      "index2": 13,
+      "postOrderIndex": 13,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/DeleteCompleted.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/DeleteCompleted.js",
+          "loc": "3:0-57",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/DeleteCompleted.js",
+          "loc": "21:69-97",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/DeleteCompleted.js",
+          "loc": "24:4-31",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -2444,9 +2851,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 9638,
+      "size": 11817,
       "sizes": {
-        "javascript": 9638
+        "javascript": 11817
       },
       "built": true,
       "codeGenerated": true,
@@ -3142,20 +3549,20 @@
       ],
       "assets": [
         {
-          "name": "bundlea1135dc3c22f671b9589.js",
-          "size": 55542
+          "name": "bundle12116c996a625535e032.js",
+          "size": 62184
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 55542,
+      "assetsSize": 62184,
       "auxiliaryAssets": [
         {
-          "name": "bundlea1135dc3c22f671b9589.js.map",
-          "size": 58440
+          "name": "bundle12116c996a625535e032.js.map",
+          "size": 64218
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 58440,
+      "auxiliaryAssetsSize": 64218,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -3169,20 +3576,20 @@
       ],
       "assets": [
         {
-          "name": "bundlea1135dc3c22f671b9589.js",
-          "size": 55542
+          "name": "bundle12116c996a625535e032.js",
+          "size": 62184
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 55542,
+      "assetsSize": 62184,
       "auxiliaryAssets": [
         {
-          "name": "bundlea1135dc3c22f671b9589.js.map",
-          "size": 58440
+          "name": "bundle12116c996a625535e032.js.map",
+          "size": 64218
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 58440,
+      "auxiliaryAssetsSize": 64218,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -3195,10 +3602,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "3326ebe1e995b42abcad",
+      "hash": "fd7ccd1b6048905fe61c",
       "version": "5.88.1",
-      "time": 1207,
-      "builtAt": 1689908785637,
+      "time": 276,
+      "builtAt": 1689968265500,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
       "assetsByChunkName": {},
@@ -3209,9 +3616,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 3676,
+          "size": 3591,
           "sizes": {
-            "javascript": 2942,
+            "javascript": 2857,
             "runtime": 734
           },
           "names": [
@@ -3223,7 +3630,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "b6a28121186b13a763a7",
+          "hash": "1c961cdb465c9fb305d2",
           "childrenByOrder": {},
           "id": "HtmlWebpackPlugin_0-0",
           "siblings": [],
@@ -3234,9 +3641,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2865,
+              "size": 2780,
               "sizes": {
-                "javascript": 2865
+                "javascript": 2780
               },
               "built": true,
               "codeGenerated": true,
@@ -3594,9 +4001,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2865,
+          "size": 2780,
           "sizes": {
-            "javascript": 2865
+            "javascript": 2780
           },
           "built": true,
           "codeGenerated": true,

@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Awesome Book\] ](#-awesome-book-)
+- [📖 \[Awesome Todo List\] ](#-todo-list-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -123,7 +123,8 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more pages]**
-- [ ] **[Improve User Interaction like edit remove and clear selected items]**
+- [ ] **[Improve User Interaction drag task]**
+- [ ] **[Add scroll when tasks are many]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

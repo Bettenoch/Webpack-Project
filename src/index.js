@@ -1,6 +1,7 @@
 import './styles/index.scss';
 
 import Algos from './modules/DisplayTask.js';
+import ClearComplete from './modules/DeleteCompleted.js';
 
 const mainForm = document.getElementById('main-form');
 const editForm = document.getElementById('edit-form');
@@ -22,6 +23,11 @@ editForm.addEventListener('submit', (e) => {
   editForm.style.display = 'none';
 });
 
+document.querySelector('.clear-completed').addEventListener('click', ClearComplete.clearCompleted);
+
 window.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('listUpdated', () => {
+    ClearComplete.checkComplete();
+  }, false);
   Algos.displayTodos();
 });
