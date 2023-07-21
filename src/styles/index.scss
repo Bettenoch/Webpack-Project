@@ -149,11 +149,12 @@ form {
   padding: 0 3rem;
 }
 
-.task-content{
-  display:flex;
+.task-content {
+  display: flex;
   padding: 0 3rem;
   gap: 1rem;
 }
+
 .todo-icons {
   display: flex;
   gap: 0.5rem;
@@ -162,11 +163,32 @@ form {
   border: none;
 }
 
-box-icon {
+.edit-Icon,
+.trash-can {
   outline: none;
   border: none;
-  color: blueviolet;
+  background: none;
 }
+
+.trash-can {
+  color: #4b1f38 !important;
+}
+
+.trash-can:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.delete-btn {
+  color: #4b1f38 !important;
+  display: flex;
+}
+
+.delete-btn:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
 .todo-output {
   display: flex;
 }
