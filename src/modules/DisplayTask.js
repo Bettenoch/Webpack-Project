@@ -110,8 +110,8 @@ export default class Algos {
           <h3 id="${index}" class="todoTask ${iscompleted}">${description}</h3>
         </article>
         <article class="todo-icons">
-          <button class="edit-Icon" id="${index}"><box-icon name='edit' class='delete btn'></box-icon></button>
-          <button class="trash-can" id="${index}"><box-icon type='solid' name='message-x' class='edit btn'></box-icon></button>
+          <button class="edit-Icon" id="${index}"><box-icon name='edit' class='delete-btn'></box-icon></button>
+          <button class="trash-can" id="${index}"><box-icon type='solid' name='message-x' class='edit-btn'></box-icon></button>
         </article>
         `;
 
