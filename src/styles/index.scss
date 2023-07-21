@@ -12,6 +12,7 @@
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);
   --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);
+  --linear-grad:linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);
 }
 
 * {
@@ -209,9 +210,46 @@ form {
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
-  color: #313154;
+  color: #3838c8;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
+.hover-effect {
+  position: relative;
+  padding: 0.75em;
+  color: var(--linear-grad);
+  &::before,
+  &::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform-origin: center;
+  }
+
+  &::before {
+    border-top: 0.2em solid var(--linear-grad);
+    border-bottom: 0.2em solid var(--linear-grad);
+    transform: scale3d(0,1,1);
+  }
+
+  &::after {
+    border-left: 0.2em solid var(--linear-grad);
+    border-right: 0.2em solid var(--linear-grad);
+    transform: scale3d(1,0,1);
+  }
+
+  &:hover::before,
+  &:hover::after {
+    transform: scale3d(1,1,1);
+    transition: transform 900ms;
+  }
+}
 .completed {
   text-decoration: line-through;
   color: gray;

@@ -166,7 +166,7 @@ _defineProperty(Algos, "editTodoBtn", function () {
   });
 });
 _defineProperty(Algos, "editTodoClick", function () {
-  document.querySelectorAll('.todoTask').forEach(function (todo) {
+  document.querySelectorAll('.item').forEach(function (todo) {
     return todo.addEventListener('dblclick', function (e) {
       e.preventDefault();
       var id;
@@ -184,7 +184,7 @@ _defineProperty(Algos, "CreateTodo", function (_ref, currentStatus, iscompleted)
     index = _ref.index;
   var todo = document.createElement('li');
   todo.className = 'todo-item';
-  todo.innerHTML = "\n        <article class=\"task-content\">\n          <input type=\"checkbox\" id=\"".concat(index, "\" name=\"\" value=\"\" class=\"checkbox\" ").concat(currentStatus, ">\n          <h3 id=\"").concat(index, "\" class=\"todoTask ").concat(iscompleted, "\">").concat(description, "</h3>\n        </article>\n        <article class=\"todo-icons\">\n          <button class=\"edit-Icon\" id=\"").concat(index, "\"><box-icon name='edit' class='delete-btn'></box-icon></button>\n          <button class=\"trash-can\" id=\"").concat(index, "\"><box-icon type='solid' name='message-x' class='edit-btn'></box-icon></button>\n        </article>\n        ");
+  todo.innerHTML = "\n        <article class=\"task-content\">\n          <input type=\"checkbox\" id=\"".concat(index, "\" name=\"\" value=\"\" class=\"checkbox\" ").concat(currentStatus, ">\n          <h3 id=\"").concat(index, "\" class=\"item ").concat(iscompleted, "\">").concat(description, "</h3>\n        </article>\n        <article class=\"todo-icons\">\n          <button class=\"edit-Icon\" id=\"").concat(index, "\"><box-icon name='edit' class='delete-btn'></box-icon></button>\n          <button class=\"trash-can\" id=\"").concat(index, "\"><box-icon type='solid' name='message-x' class='edit-btn'></box-icon></button>\n        </article>\n        ");
   return todo;
 });
 _defineProperty(Algos, "displayTodos", function () {
@@ -293,6 +293,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `:root {
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);
   --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);
+  --linear-grad:linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);
 }
 
 * {
@@ -490,13 +491,46 @@ form {
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
-  color: #313154;
+  color: #0606cc;
+}
+.clear-completed:hover {
+  cursor: pointer;
+}
+
+.hover-effect {
+  position: relative;
+  padding: 0.75em;
+  color: var(--linear-grad);
+}
+.hover-effect::before, .hover-effect::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+}
+.hover-effect::before {
+  border-top: 0.2em solid var(--linear-grad);
+  border-bottom: 0.2em solid var(--linear-grad);
+  transform: scale3d(0, 1, 1);
+}
+.hover-effect::after {
+  border-left: 0.2em solid var(--linear-grad);
+  border-right: 0.2em solid var(--linear-grad);
+  transform: scale3d(1, 0, 1);
+}
+.hover-effect:hover::before, .hover-effect:hover::after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 900ms;
 }
 
 .completed {
   text-decoration: line-through;
   color: gray;
-}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,mBAAA;EACA,mBAAA;EACA,6BAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,2BAAA;EACA,uBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,sEAAA;AAAF;;AAGA;EACE,qCAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,eAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;AAAF;;AAGA;;EAEE,aAAA;EACA,YAAA;EACA,gBAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,yBAAA;EACA,aAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAAF;;AAGA;EACE,6BAAA;EACA,WAAA;AAAF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\n.t-text {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  padding: 0 3rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n\r\n#edit-form {\r\n  display: none;\r\n}\r\n\r\n.form-input {\r\n  background: #efeded;\r\n  border-radius: 10px;\r\n  border-top: 1px solid #efecec;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem 3rem;\r\n  outline: none;\r\n  border: none;\r\n  font-style: italic;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: flex-start;\r\n  padding: 1rem 3rem;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(208, 52, 52), rgb(85, 85, 189));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.task-content {\r\n  display: flex;\r\n  padding: 0 3rem;\r\n  gap: 1rem;\r\n}\r\n\r\n.todo-icons {\r\n  display: flex;\r\n  gap: 0.5rem;\r\n  padding-right: 3rem;\r\n  outline: none;\r\n  border: none;\r\n}\r\n\r\n.edit-Icon,\r\n.trash-can {\r\n  outline: none;\r\n  border: none;\r\n  background: none;\r\n}\r\n\r\n.trash-can {\r\n  color: #4b1f38 !important;\r\n}\r\n\r\n.trash-can:hover {\r\n  transform: scale(1.2);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.delete-btn {\r\n  color: #4b1f38 !important;\r\n  display: flex;\r\n}\r\n\r\n.delete-btn:hover {\r\n  transform: scale(1.5);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #313154;\r\n}\r\n\r\n.completed {\r\n  text-decoration: line-through;\r\n  color: gray;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;EACA,kEAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;EACA,gBAAA;EACA,YAAA;AAAF;;AAGA;EACE,iBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,2BAAA;EACA,SAAA;EACA,kBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,mBAAA;EACA,mBAAA;EACA,6BAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,2BAAA;EACA,uBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,sEAAA;AAAF;;AAGA;EACE,qCAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gCAAA;EACA,6BAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,SAAA;EACA,gBAAA;EACA,mBAAA;EACA,gCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,eAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;AAAF;;AAGA;;EAEE,aAAA;EACA,YAAA;EACA,gBAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,yBAAA;EACA,aAAA;AAAF;;AAGA;EACE,qBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,OAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;EACA,YAAA;EACA,gDAAA;EACA,gBAAA;EACA,cAAA;AAAF;AACE;EACE,eAAA;AACJ;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,yBAAA;AAAF;AACE;EAEE,WAAA;EACA,sBAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EACA,YAAA;EACA,WAAA;EACA,wBAAA;AAAJ;AAGE;EACE,0CAAA;EACA,6CAAA;EACA,2BAAA;AADJ;AAIE;EACE,2CAAA;EACA,4CAAA;EACA,2BAAA;AAFJ;AAKE;EAEE,2BAAA;EACA,2BAAA;AAJJ;;AAOA;EACE,6BAAA;EACA,WAAA;AAJF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n  --linear-grad:linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  margin-top: 4rem;\r\n  width: 100vw;\r\n}\r\n\r\n.page-contents {\r\n  background: white;\r\n  box-shadow: var(--box-shadow);\r\n  border-radius: 10px;\r\n  width: 80%;\r\n}\r\n\r\n.header-tag {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\n.header-tag h1 {\r\n  font-size: 2rem;\r\n}\r\n\r\n.form-container {\r\n  display: flex;\r\n}\r\n\r\n.t-text {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  padding: 0 3rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  gap: 1rem;\r\n  border-radius: 2px;\r\n  transition: 0.5s;\r\n  width: 100%;\r\n}\r\n\r\n#edit-form {\r\n  display: none;\r\n}\r\n\r\n.form-input {\r\n  background: #efeded;\r\n  border-radius: 10px;\r\n  border-top: 1px solid #efecec;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 1rem 3rem;\r\n  outline: none;\r\n  border: none;\r\n  font-style: italic;\r\n}\r\n\r\n.btn-holder {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: flex-start;\r\n  padding: 1rem 3rem;\r\n}\r\n\r\n#addBtn {\r\n  width: max-content;\r\n  padding: 0.5rem;\r\n  border-radius: 20px;\r\n  outline: none;\r\n  border: none;\r\n  background: linear-gradient(45deg, rgb(208, 52, 52), rgb(85, 85, 189));\r\n}\r\n\r\n#addBtn:hover {\r\n  box-shadow: inset 400px 0 0 0 #d80286;\r\n  color: white;\r\n}\r\n\r\n.todo-list {\r\n  display: flex;\r\n  text-align: center;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-list h3 {\r\n  border-bottom: 1px solid #efecec;\r\n  border-top: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.list-items {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 0;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  border-bottom: 1px solid #efecec;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.todo-content {\r\n  display: flex;\r\n  gap: 1rem;\r\n  padding: 0 3rem;\r\n}\r\n\r\n.task-content {\r\n  display: flex;\r\n  padding: 0 3rem;\r\n  gap: 1rem;\r\n}\r\n\r\n.todo-icons {\r\n  display: flex;\r\n  gap: 0.5rem;\r\n  padding-right: 3rem;\r\n  outline: none;\r\n  border: none;\r\n}\r\n\r\n.edit-Icon,\r\n.trash-can {\r\n  outline: none;\r\n  border: none;\r\n  background: none;\r\n}\r\n\r\n.trash-can {\r\n  color: #4b1f38 !important;\r\n}\r\n\r\n.trash-can:hover {\r\n  transform: scale(1.2);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.delete-btn {\r\n  color: #4b1f38 !important;\r\n  display: flex;\r\n}\r\n\r\n.delete-btn:hover {\r\n  transform: scale(1.5);\r\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.todo-output {\r\n  display: flex;\r\n}\r\n\r\n.todo-task {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n  flex: 1;\r\n  padding-top: 0.4rem;\r\n}\r\n\r\n.clear-completed {\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 1rem;\r\n  outline: none;\r\n  border: none;\r\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n  font-weight: 700;\r\n  color: #0606cc;\r\n  &:hover {\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.hover-effect {\r\n  position: relative;\r\n  padding: 0.75em;\r\n  color: var(--linear-grad);\r\n  &::before,\r\n  &::after {\r\n    content: '';\r\n    box-sizing: border-box;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    height: 100%;\r\n    width: 100%;\r\n    transform-origin: center;\r\n  }\r\n\r\n  &::before {\r\n    border-top: 0.2em solid var(--linear-grad);\r\n    border-bottom: 0.2em solid var(--linear-grad);\r\n    transform: scale3d(0,1,1);\r\n  }\r\n\r\n  &::after {\r\n    border-left: 0.2em solid var(--linear-grad);\r\n    border-right: 0.2em solid var(--linear-grad);\r\n    transform: scale3d(1,0,1);\r\n  }\r\n\r\n  &:hover::before,\r\n  &:hover::after {\r\n    transform: scale3d(1,1,1);\r\n    transition: transform 900ms;\r\n  }\r\n}\r\n.completed {\r\n  text-decoration: line-through;\r\n  color: gray;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1056,7 +1090,7 @@ editForm.addEventListener('submit', function (e) {
   document.getElementById('main-form').style.display = 'block';
   editForm.style.display = 'none';
 });
-document.getElementById('clear-complete').addEventListener('click', _modules_DeleteCompleted_js__WEBPACK_IMPORTED_MODULE_2__["default"].clearCompleted());
+document.querySelector('.clear-completed').addEventListener('click', _modules_DeleteCompleted_js__WEBPACK_IMPORTED_MODULE_2__["default"].clearCompleted);
 window.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('listUpdated', function () {
     _modules_DeleteCompleted_js__WEBPACK_IMPORTED_MODULE_2__["default"].checkComplete();
@@ -1067,4 +1101,4 @@ window.addEventListener('DOMContentLoaded', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleb658f5046b0cf4743eb4.js.map
+//# sourceMappingURL=bundle9bda38c3f225dbc1e59c.js.map
