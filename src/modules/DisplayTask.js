@@ -3,8 +3,8 @@ import 'boxicons';
 
 export default class Algos {
   static storeInLS = (todo) => {
-    const task = JSON.stringify(todo);
-    localStorage.setItem('todoList', task);
+    const item = JSON.stringify(todo);
+    localStorage.setItem('todoList', item);
   };
 
   static fetchFromLS = () => {
@@ -20,8 +20,8 @@ export default class Algos {
   };
 
   static assignIndex = (todoList) => {
-    todoList.forEach((todo, i) => {
-      todo.index = i + 1;
+    todoList.forEach((item, i) => {
+      item.index = i + 1;
     });
   }
 
@@ -89,7 +89,7 @@ export default class Algos {
   }
 
   static editTodoClick = () => {
-    document.querySelectorAll('.todoTask').forEach((todo) => todo.addEventListener('dblclick', (e) => {
+    document.querySelectorAll('.item').forEach((todo) => todo.addEventListener('dblclick', (e) => {
       e.preventDefault();
       let id;
       if (todo.id > 0) {
@@ -107,7 +107,7 @@ export default class Algos {
     todo.innerHTML = `
         <article class="task-content">
           <input type="checkbox" id="${index}" name="" value="" class="checkbox" ${currentStatus}>
-          <h3 id="${index}" class="todoTask ${iscompleted}">${description}</h3>
+          <h3 id="${index}" class="item ${iscompleted}">${description}</h3>
         </article>
         <article class="todo-icons">
           <button class="edit-Icon" id="${index}"><box-icon name='edit' class='delete-btn'></box-icon></button>
@@ -138,7 +138,7 @@ export default class Algos {
     this.editTodoBtn();
     this.editTodoClick();
 
-    const event = new Event('updatedList');
+    const event = new Event('listUpdated');
     document.dispatchEvent(event);
   }
 
