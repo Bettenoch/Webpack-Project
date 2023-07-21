@@ -1,11 +1,7 @@
 export default class Tasks {
-  constructor(description, completed, index) {
+  constructor(description, index, completed = false) {
     this.description = description;
-    this.completed = completed;
     this.index = index;
+    this.completed = completed;
   }
 }
-export const addItem = document.getElementById('addBtn');
-export const clearTask = document.querySelector('.clear-completed');
-export const userInput = document.getElementById('task-input');
-export const taskField = document.getElementById('todo-list-items');
