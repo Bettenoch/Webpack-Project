@@ -1,32 +1,32 @@
 {
-  "hash": "2859d7919ab0d2655714",
+  "hash": "51ef4840a10f9e7c6ddd",
   "version": "5.88.1",
-  "time": 224,
-  "builtAt": 1689906580191,
+  "time": 271,
+  "builtAt": 1689908496703,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle40d00a547f220e8e1e09.js",
-      "bundle.8dc78c4094b63da71ed8.hot-update.js"
+      "bundle3932f58118a6b3713e4d.js",
+      "bundle.3b60d26a089cf49c79f5.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle40d00a547f220e8e1e09.js",
-      "size": 300129,
+      "name": "bundle3932f58118a6b3713e4d.js",
+      "size": 300953,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "40d00a547f220e8e1e09",
+        "contenthash": "3932f58118a6b3713e4d",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle40d00a547f220e8e1e09.js.map"
+          "sourceMap": "bundle3932f58118a6b3713e4d.js.map"
         },
-        "size": 300129
+        "size": 300953
       },
       "chunkNames": [
         "bundle"
@@ -38,14 +38,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle40d00a547f220e8e1e09.js.map",
-          "size": 349265,
+          "name": "bundle3932f58118a6b3713e4d.js.map",
+          "size": 350399,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 349265
+            "size": 350399
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,19 +69,19 @@
     },
     {
       "type": "asset",
-      "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
-      "size": 10792,
+      "name": "bundle.3b60d26a089cf49c79f5.hot-update.js",
+      "size": 11616,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "8dc78c4094b63da71ed8",
+        "fullhash": "3b60d26a089cf49c79f5",
         "related": {
-          "sourceMap": "bundle.8dc78c4094b63da71ed8.hot-update.js.map"
+          "sourceMap": "bundle.3b60d26a089cf49c79f5.hot-update.js.map"
         },
-        "size": 10792
+        "size": 11616
       },
       "chunkNames": [
         "bundle"
@@ -93,14 +93,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
-          "size": 12651,
+          "name": "bundle.3b60d26a089cf49c79f5.hot-update.js.map",
+          "size": 13785,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 12651
+            "size": 13785
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -143,7 +143,7 @@
     },
     {
       "type": "asset",
-      "name": "bundle.8dc78c4094b63da71ed8.hot-update.json",
+      "name": "bundle.3b60d26a089cf49c79f5.hot-update.json",
       "size": 30,
       "emitted": true,
       "comparedForEmit": false,
@@ -151,7 +151,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "8dc78c4094b63da71ed8",
+        "fullhash": "3b60d26a089cf49c79f5",
         "size": 30
       },
       "chunkNames": [],
@@ -170,10 +170,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 252206,
+      "size": 253030,
       "sizes": {
         "runtime": 28044,
-        "javascript": 224162
+        "javascript": 224986
       },
       "names": [
         "bundle"
@@ -183,14 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundle40d00a547f220e8e1e09.js",
-        "bundle.8dc78c4094b63da71ed8.hot-update.js"
+        "bundle3932f58118a6b3713e4d.js",
+        "bundle.3b60d26a089cf49c79f5.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
-        "bundle40d00a547f220e8e1e09.js.map"
+        "bundle.3b60d26a089cf49c79f5.hot-update.js.map",
+        "bundle3932f58118a6b3713e4d.js.map"
       ],
-      "hash": "50b5aedaa727a084c6c5",
+      "hash": "bb0b45a889f70af468a7",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -391,9 +391,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8803,
+          "size": 9627,
           "sizes": {
-            "javascript": 8803
+            "javascript": 9627
           },
           "built": true,
           "codeGenerated": true,
@@ -8183,9 +8183,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 8803,
+      "size": 9627,
       "sizes": {
-        "javascript": 8803
+        "javascript": 9627
       },
       "built": true,
       "codeGenerated": true,
@@ -9622,28 +9622,28 @@
       ],
       "assets": [
         {
-          "name": "bundle40d00a547f220e8e1e09.js",
-          "size": 300129
+          "name": "bundle3932f58118a6b3713e4d.js",
+          "size": 300953
         },
         {
-          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
-          "size": 10792
+          "name": "bundle.3b60d26a089cf49c79f5.hot-update.js",
+          "size": 11616
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 310921,
+      "assetsSize": 312569,
       "auxiliaryAssets": [
         {
-          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
-          "size": 12651
+          "name": "bundle.3b60d26a089cf49c79f5.hot-update.js.map",
+          "size": 13785
         },
         {
-          "name": "bundle40d00a547f220e8e1e09.js.map",
-          "size": 349265
+          "name": "bundle3932f58118a6b3713e4d.js.map",
+          "size": 350399
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 361916,
+      "auxiliaryAssetsSize": 364184,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -9657,28 +9657,28 @@
       ],
       "assets": [
         {
-          "name": "bundle40d00a547f220e8e1e09.js",
-          "size": 300129
+          "name": "bundle3932f58118a6b3713e4d.js",
+          "size": 300953
         },
         {
-          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
-          "size": 10792
+          "name": "bundle.3b60d26a089cf49c79f5.hot-update.js",
+          "size": 11616
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 310921,
+      "assetsSize": 312569,
       "auxiliaryAssets": [
         {
-          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
-          "size": 12651
+          "name": "bundle.3b60d26a089cf49c79f5.hot-update.js.map",
+          "size": 13785
         },
         {
-          "name": "bundle40d00a547f220e8e1e09.js.map",
-          "size": 349265
+          "name": "bundle3932f58118a6b3713e4d.js.map",
+          "size": 350399
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 361916,
+      "auxiliaryAssetsSize": 364184,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
