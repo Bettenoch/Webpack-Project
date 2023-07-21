@@ -1,32 +1,32 @@
 {
-  "hash": "56f2282b69dae9e3cb79",
+  "hash": "2859d7919ab0d2655714",
   "version": "5.88.1",
-  "time": 435,
-  "builtAt": 1689876956212,
+  "time": 224,
+  "builtAt": 1689906580191,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle948dde7c017b4f4bd06e.js",
-      "bundle.f3678327bf8406cac091.hot-update.js"
+      "bundle40d00a547f220e8e1e09.js",
+      "bundle.8dc78c4094b63da71ed8.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle948dde7c017b4f4bd06e.js",
-      "size": 300135,
+      "name": "bundle40d00a547f220e8e1e09.js",
+      "size": 300129,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "948dde7c017b4f4bd06e",
+        "contenthash": "40d00a547f220e8e1e09",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle948dde7c017b4f4bd06e.js.map"
+          "sourceMap": "bundle40d00a547f220e8e1e09.js.map"
         },
-        "size": 300135
+        "size": 300129
       },
       "chunkNames": [
         "bundle"
@@ -38,14 +38,69 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle948dde7c017b4f4bd06e.js.map",
-          "size": 343539,
+          "name": "bundle40d00a547f220e8e1e09.js.map",
+          "size": 349265,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 343539
+            "size": 349265
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "bundle"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "bundle"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "bundle"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
+      "size": 10792,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "8dc78c4094b63da71ed8",
+        "related": {
+          "sourceMap": "bundle.8dc78c4094b63da71ed8.hot-update.js.map"
+        },
+        "size": 10792
+      },
+      "chunkNames": [
+        "bundle"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
+          "size": 12651,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 12651
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -70,12 +125,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1679,
+      "size": 2551,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1679
+        "size": 2551
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -88,62 +143,7 @@
     },
     {
       "type": "asset",
-      "name": "bundle.f3678327bf8406cac091.hot-update.js",
-      "size": 364,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "f3678327bf8406cac091",
-        "related": {
-          "sourceMap": "bundle.f3678327bf8406cac091.hot-update.js.map"
-        },
-        "size": 364
-      },
-      "chunkNames": [
-        "bundle"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "bundle.f3678327bf8406cac091.hot-update.js.map",
-          "size": 260,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 260
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "bundle"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "bundle"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "bundle"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "bundle.f3678327bf8406cac091.hot-update.json",
+      "name": "bundle.8dc78c4094b63da71ed8.hot-update.json",
       "size": 30,
       "emitted": true,
       "comparedForEmit": false,
@@ -151,7 +151,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "f3678327bf8406cac091",
+        "fullhash": "8dc78c4094b63da71ed8",
         "size": 30
       },
       "chunkNames": [],
@@ -170,10 +170,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 249464,
+      "size": 252206,
       "sizes": {
         "runtime": 28044,
-        "javascript": 221420
+        "javascript": 224162
       },
       "names": [
         "bundle"
@@ -183,14 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundle948dde7c017b4f4bd06e.js",
-        "bundle.f3678327bf8406cac091.hot-update.js"
+        "bundle40d00a547f220e8e1e09.js",
+        "bundle.8dc78c4094b63da71ed8.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundle.f3678327bf8406cac091.hot-update.js.map",
-        "bundle948dde7c017b4f4bd06e.js.map"
+        "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
+        "bundle40d00a547f220e8e1e09.js.map"
       ],
-      "hash": "af41c78a39b0183e06b8",
+      "hash": "50b5aedaa727a084c6c5",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -321,8 +321,8 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
           "name": "./node_modules/boxicons/dist/boxicons.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
-          "index": 40,
-          "preOrderIndex": 40,
+          "index": 39,
+          "preOrderIndex": 39,
           "index2": 37,
           "postOrderIndex": 37,
           "cacheable": true,
@@ -391,14 +391,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8114,
+          "size": 8803,
           "sizes": {
-            "javascript": 8114
+            "javascript": 8803
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -4145,9 +4145,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 984,
+          "size": 807,
           "sizes": {
-            "javascript": 984
+            "javascript": 807
           },
           "built": false,
           "codeGenerated": false,
@@ -4158,8 +4158,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
           "index": 26,
           "preOrderIndex": 26,
-          "index2": 41,
-          "postOrderIndex": 41,
+          "index2": 39,
+          "postOrderIndex": 39,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4201,87 +4201,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 347,
+          "size": 6440,
           "sizes": {
-            "javascript": 347
-          },
-          "built": false,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": true,
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "name": "./src/modules/AddTask.js",
-          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "index": 37,
-          "preOrderIndex": 37,
-          "index2": 39,
-          "postOrderIndex": 39,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./src/modules/AddTask.js",
-          "issuerId": "./src/index.js",
-          "chunks": [
-            "bundle"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/AddTask.js",
-              "loc": "2:0-44",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/AddTask.js",
-              "loc": "11:17-25",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 3305,
-          "sizes": {
-            "javascript": 3305
+            "javascript": 6440
           },
           "built": false,
           "codeGenerated": false,
@@ -4290,8 +4212,8 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
           "name": "./src/modules/DisplayTask.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "index": 39,
-          "preOrderIndex": 39,
+          "index": 37,
+          "preOrderIndex": 37,
           "index2": 38,
           "postOrderIndex": 38,
           "cacheable": true,
@@ -4327,7 +4249,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "3:0-52",
+              "loc": "2:0-45",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4341,7 +4263,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "12:6-23",
+              "loc": "9:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4355,7 +4277,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "13:6-25",
+              "loc": "15:2-18",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4369,113 +4291,14 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/DisplayTask.js",
-              "loc": "15:6-26",
+              "loc": "21:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/DisplayTask.js",
-              "loc": "23:6-25",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/DisplayTask.js",
-              "loc": "32:2-22",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./DisplayTask.js",
-              "loc": "2:0-44",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./DisplayTask.js",
-              "loc": "4:47-68",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "module": "./src/modules/LocalStorage.js",
-              "moduleName": "./src/modules/LocalStorage.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "resolvedModule": "./src/modules/LocalStorage.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./DisplayTask.js",
-              "loc": "1:0-44",
-              "moduleId": "./src/modules/LocalStorage.js",
-              "resolvedModuleId": "./src/modules/LocalStorage.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "module": "./src/modules/LocalStorage.js",
-              "moduleName": "./src/modules/LocalStorage.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "resolvedModule": "./src/modules/LocalStorage.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./DisplayTask.js",
-              "loc": "3:47-61",
-              "moduleId": "./src/modules/LocalStorage.js",
-              "resolvedModuleId": "./src/modules/LocalStorage.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "module": "./src/modules/LocalStorage.js",
-              "moduleName": "./src/modules/LocalStorage.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-              "resolvedModule": "./src/modules/LocalStorage.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./DisplayTask.js",
-              "loc": "11:4-21",
-              "moduleId": "./src/modules/LocalStorage.js",
-              "resolvedModuleId": "./src/modules/LocalStorage.js"
             }
           ],
           "usedExports": null,
           "providedExports": [
-            "addItems",
-            "newTasks"
+            "default"
           ],
           "optimizationBailout": [],
           "depth": 1
@@ -4484,116 +4307,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 388,
+          "size": 1937,
           "sizes": {
-            "javascript": 388
-          },
-          "built": false,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": true,
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "name": "./src/modules/LocalStorage.js",
-          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "index": 41,
-          "preOrderIndex": 41,
-          "index2": 40,
-          "postOrderIndex": 40,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./src/modules/LocalStorage.js",
-          "issuerId": "./src/index.js",
-          "chunks": [
-            "bundle"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/LocalStorage.js",
-              "loc": "5:0-62",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/LocalStorage.js",
-              "loc": "14:6-11",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/LocalStorage.js",
-              "loc": "24:6-11",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/LocalStorage.js",
-              "loc": "31:2-12",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "fetchItems",
-            "store"
-          ],
-          "optimizationBailout": [],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 2107,
-          "sizes": {
-            "javascript": 2107
+            "javascript": 1937
           },
           "built": false,
           "codeGenerated": false,
@@ -4610,152 +4326,31 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "issuerName": "./src/modules/DisplayTask.js",
           "issuerPath": [
             {
               "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
               "name": "./src/index.js",
               "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+              "name": "./src/modules/DisplayTask.js",
+              "id": "./src/modules/DisplayTask.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/modules/TaskList.js",
-          "issuerId": "./src/index.js",
+          "issuerId": "./src/modules/DisplayTask.js",
           "chunks": [
             "bundle"
           ],
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "4:0-61",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "6:0-26",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "8:8-23",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/TaskList.js",
-              "loc": "19:0-26",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "1:0-49",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "4:17-22",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "4:23-38",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "5:6-21",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "module": "./src/modules/AddTask.js",
-              "moduleName": "./src/modules/AddTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-              "resolvedModule": "./src/modules/AddTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "8:4-19",
-              "moduleId": "./src/modules/AddTask.js",
-              "resolvedModuleId": "./src/modules/AddTask.js"
-            },
-            {
               "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
               "module": "./src/modules/DisplayTask.js",
               "moduleName": "./src/modules/DisplayTask.js",
@@ -4765,7 +4360,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./TaskList.js",
-              "loc": "8:0-42",
+              "loc": "8:0-34",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             },
@@ -4779,35 +4374,17 @@
               "active": true,
               "explanation": "",
               "userRequest": "./TaskList.js",
-              "loc": "14:4-23",
-              "moduleId": "./src/modules/DisplayTask.js",
-              "resolvedModuleId": "./src/modules/DisplayTask.js"
-            },
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-              "module": "./src/modules/DisplayTask.js",
-              "moduleName": "./src/modules/DisplayTask.js",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-              "resolvedModule": "./src/modules/DisplayTask.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./TaskList.js",
-              "loc": "28:6-27",
+              "loc": "137:20-25",
               "moduleId": "./src/modules/DisplayTask.js",
               "resolvedModuleId": "./src/modules/DisplayTask.js"
             }
           ],
           "usedExports": null,
           "providedExports": [
-            "addItem",
-            "clearTask",
-            "default",
-            "taskField",
-            "userInput"
+            "default"
           ],
           "optimizationBailout": [],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -5480,9 +5057,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 984,
+      "size": 807,
       "sizes": {
-        "javascript": 984
+        "javascript": 807
       },
       "built": false,
       "codeGenerated": false,
@@ -5493,8 +5070,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
       "index": 26,
       "preOrderIndex": 26,
-      "index2": 41,
-      "postOrderIndex": 41,
+      "index2": 39,
+      "postOrderIndex": 39,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -6933,307 +6510,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 347,
+      "size": 6440,
       "sizes": {
-        "javascript": 347
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-      "name": "./src/modules/AddTask.js",
-      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-      "index": 37,
-      "preOrderIndex": 37,
-      "index2": 39,
-      "postOrderIndex": 39,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/AddTask.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "bundle"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/AddTask.js",
-          "loc": "2:0-44",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/AddTask.js",
-          "loc": "11:17-25",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 2107,
-      "sizes": {
-        "javascript": 2107
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
-      "name": "./src/modules/TaskList.js",
-      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
-      "index": 38,
-      "preOrderIndex": 38,
-      "index2": 36,
-      "postOrderIndex": 36,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/TaskList.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "bundle"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "4:0-61",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "6:0-26",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "8:8-23",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/TaskList.js",
-          "loc": "19:0-26",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "1:0-49",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "4:17-22",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "4:23-38",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "5:6-21",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "8:4-19",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "module": "./src/modules/DisplayTask.js",
-          "moduleName": "./src/modules/DisplayTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "resolvedModule": "./src/modules/DisplayTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "8:0-42",
-          "moduleId": "./src/modules/DisplayTask.js",
-          "resolvedModuleId": "./src/modules/DisplayTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "module": "./src/modules/DisplayTask.js",
-          "moduleName": "./src/modules/DisplayTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "resolvedModule": "./src/modules/DisplayTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "14:4-23",
-          "moduleId": "./src/modules/DisplayTask.js",
-          "resolvedModuleId": "./src/modules/DisplayTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "module": "./src/modules/DisplayTask.js",
-          "moduleName": "./src/modules/DisplayTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-          "resolvedModule": "./src/modules/DisplayTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./TaskList.js",
-          "loc": "28:6-27",
-          "moduleId": "./src/modules/DisplayTask.js",
-          "resolvedModuleId": "./src/modules/DisplayTask.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "addItem",
-        "clearTask",
-        "default",
-        "taskField",
-        "userInput"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 3305,
-      "sizes": {
-        "javascript": 3305
+        "javascript": 6440
       },
       "built": false,
       "codeGenerated": false,
@@ -7242,8 +6521,8 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
       "name": "./src/modules/DisplayTask.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
-      "index": 39,
-      "preOrderIndex": 39,
+      "index": 37,
+      "preOrderIndex": 37,
       "index2": 38,
       "postOrderIndex": 38,
       "cacheable": true,
@@ -7278,7 +6557,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "3:0-52",
+          "loc": "2:0-45",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7292,7 +6571,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "12:6-23",
+          "loc": "9:2-20",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7306,7 +6585,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "13:6-25",
+          "loc": "15:2-18",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7320,219 +6599,14 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/DisplayTask.js",
-          "loc": "15:6-26",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/DisplayTask.js",
-          "loc": "23:6-25",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/DisplayTask.js",
-          "loc": "32:2-22",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./DisplayTask.js",
-          "loc": "2:0-44",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "module": "./src/modules/AddTask.js",
-          "moduleName": "./src/modules/AddTask.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\AddTask.js",
-          "resolvedModule": "./src/modules/AddTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./DisplayTask.js",
-          "loc": "4:47-68",
-          "moduleId": "./src/modules/AddTask.js",
-          "resolvedModuleId": "./src/modules/AddTask.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "module": "./src/modules/LocalStorage.js",
-          "moduleName": "./src/modules/LocalStorage.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "resolvedModule": "./src/modules/LocalStorage.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./DisplayTask.js",
-          "loc": "1:0-44",
-          "moduleId": "./src/modules/LocalStorage.js",
-          "resolvedModuleId": "./src/modules/LocalStorage.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "module": "./src/modules/LocalStorage.js",
-          "moduleName": "./src/modules/LocalStorage.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "resolvedModule": "./src/modules/LocalStorage.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./DisplayTask.js",
-          "loc": "3:47-61",
-          "moduleId": "./src/modules/LocalStorage.js",
-          "resolvedModuleId": "./src/modules/LocalStorage.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "module": "./src/modules/LocalStorage.js",
-          "moduleName": "./src/modules/LocalStorage.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-          "resolvedModule": "./src/modules/LocalStorage.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./DisplayTask.js",
-          "loc": "11:4-21",
-          "moduleId": "./src/modules/LocalStorage.js",
-          "resolvedModuleId": "./src/modules/LocalStorage.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "addItems",
-        "newTasks"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 388,
-      "sizes": {
-        "javascript": 388
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-      "name": "./src/modules/LocalStorage.js",
-      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\LocalStorage.js",
-      "index": 41,
-      "preOrderIndex": 41,
-      "index2": 40,
-      "postOrderIndex": 40,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/LocalStorage.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "bundle"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/LocalStorage.js",
-          "loc": "5:0-62",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/LocalStorage.js",
-          "loc": "14:6-11",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/LocalStorage.js",
-          "loc": "24:6-11",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/LocalStorage.js",
-          "loc": "31:2-12",
+          "loc": "21:2-20",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
       ],
       "usedExports": null,
       "providedExports": [
-        "fetchItems",
-        "store"
+        "default"
       ],
       "optimizationBailout": [],
       "depth": 1
@@ -9109,14 +8183,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 8114,
+      "size": 8803,
       "sizes": {
-        "javascript": 8114
+        "javascript": 8803
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\styles\\index.scss",
@@ -9415,6 +8489,88 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 1937,
+      "sizes": {
+        "javascript": 1937
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
+      "name": "./src/modules/TaskList.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\TaskList.js",
+      "index": 38,
+      "preOrderIndex": 38,
+      "index2": 36,
+      "postOrderIndex": 36,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+      "issuerName": "./src/modules/DisplayTask.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "name": "./src/modules/DisplayTask.js",
+          "id": "./src/modules/DisplayTask.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/TaskList.js",
+      "issuerId": "./src/modules/DisplayTask.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "module": "./src/modules/DisplayTask.js",
+          "moduleName": "./src/modules/DisplayTask.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "resolvedModule": "./src/modules/DisplayTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./TaskList.js",
+          "loc": "8:0-34",
+          "moduleId": "./src/modules/DisplayTask.js",
+          "resolvedModuleId": "./src/modules/DisplayTask.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "module": "./src/modules/DisplayTask.js",
+          "moduleName": "./src/modules/DisplayTask.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\modules\\DisplayTask.js",
+          "resolvedModule": "./src/modules/DisplayTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./TaskList.js",
+          "loc": "137:20-25",
+          "moduleId": "./src/modules/DisplayTask.js",
+          "resolvedModuleId": "./src/modules/DisplayTask.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 13059,
       "sizes": {
         "javascript": 13059
@@ -9426,8 +8582,8 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
       "name": "./node_modules/boxicons/dist/boxicons.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\boxicons\\dist\\boxicons.js",
-      "index": 40,
-      "preOrderIndex": 40,
+      "index": 39,
+      "preOrderIndex": 39,
       "index2": 37,
       "postOrderIndex": 37,
       "cacheable": true,
@@ -10466,28 +9622,28 @@
       ],
       "assets": [
         {
-          "name": "bundle948dde7c017b4f4bd06e.js",
-          "size": 300135
+          "name": "bundle40d00a547f220e8e1e09.js",
+          "size": 300129
         },
         {
-          "name": "bundle.f3678327bf8406cac091.hot-update.js",
-          "size": 364
+          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
+          "size": 10792
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 300499,
+      "assetsSize": 310921,
       "auxiliaryAssets": [
         {
-          "name": "bundle.f3678327bf8406cac091.hot-update.js.map",
-          "size": 260
+          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
+          "size": 12651
         },
         {
-          "name": "bundle948dde7c017b4f4bd06e.js.map",
-          "size": 343539
+          "name": "bundle40d00a547f220e8e1e09.js.map",
+          "size": 349265
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 343799,
+      "auxiliaryAssetsSize": 361916,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10501,28 +9657,28 @@
       ],
       "assets": [
         {
-          "name": "bundle948dde7c017b4f4bd06e.js",
-          "size": 300135
+          "name": "bundle40d00a547f220e8e1e09.js",
+          "size": 300129
         },
         {
-          "name": "bundle.f3678327bf8406cac091.hot-update.js",
-          "size": 364
+          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js",
+          "size": 10792
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 300499,
+      "assetsSize": 310921,
       "auxiliaryAssets": [
         {
-          "name": "bundle.f3678327bf8406cac091.hot-update.js.map",
-          "size": 260
+          "name": "bundle.8dc78c4094b63da71ed8.hot-update.js.map",
+          "size": 12651
         },
         {
-          "name": "bundle948dde7c017b4f4bd06e.js.map",
-          "size": 343539
+          "name": "bundle40d00a547f220e8e1e09.js.map",
+          "size": 349265
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 343799,
+      "auxiliaryAssetsSize": 361916,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10532,668 +9688,5 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": [
-    {
-      "name": "HtmlWebpackCompiler",
-      "hash": "e2d87cea405e2f02fb9d",
-      "version": "5.88.1",
-      "time": 197,
-      "builtAt": 1689876956067,
-      "publicPath": "",
-      "outputPath": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\dist",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 2769,
-          "sizes": {
-            "javascript": 2035,
-            "runtime": 734
-          },
-          "names": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "idHints": [],
-          "runtime": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "files": [],
-          "auxiliaryFiles": [],
-          "hash": "e4e4cbe3db2f5e70cdc6",
-          "childrenByOrder": {},
-          "id": "HtmlWebpackPlugin_0-1",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 1958,
-              "sizes": {
-                "javascript": 1958
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-                  "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "1:107-121",
-                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html"
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-                  "loc": "HtmlWebpackPlugin_0-1",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 1:107-121"
-              ],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/esm",
-              "layer": null,
-              "size": 77,
-              "sizes": {
-                "javascript": 77
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-                  "loc": "HtmlWebpackPlugin_0-1",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 88,
-              "sizes": {
-                "runtime": 88
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 274,
-              "sizes": {
-                "runtime": 274
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 27,
-              "sizes": {
-                "runtime": 27
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/publicPath",
-              "name": "webpack/runtime/publicPath",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 345,
-              "sizes": {
-                "runtime": 345
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/require chunk loading",
-              "name": "webpack/runtime/require chunk loading",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-1"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-1",
-              "request": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html"
-            },
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-1",
-              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/esm",
-          "layer": null,
-          "size": 77,
-          "sizes": {
-            "javascript": 77
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "index": 0,
-          "preOrderIndex": 0,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "loc": "HtmlWebpackPlugin_0-1",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1958,
-          "sizes": {
-            "javascript": 1958
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-          "nameForCondition": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "1:107-121",
-              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
-              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html"
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "F:\\Microverse\\Solo-Projects\\Webpack-Project\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\Microverse\\Solo-Projects\\Webpack-Project\\src\\template.html",
-              "loc": "HtmlWebpackPlugin_0-1",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": null,
-              "active": true,
-              "explanation": "used as library export",
-              "userRequest": null,
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:107-121"
-          ],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 88,
-          "sizes": {
-            "runtime": 88
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/hasOwnProperty shorthand",
-          "name": "webpack/runtime/hasOwnProperty shorthand",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 274,
-          "sizes": {
-            "runtime": 274
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 27,
-          "sizes": {
-            "runtime": 27
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/publicPath",
-          "name": "webpack/runtime/publicPath",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 345,
-          "sizes": {
-            "runtime": 345
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/require chunk loading",
-          "name": "webpack/runtime/require chunk loading",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        }
-      ],
-      "entrypoints": {
-        "HtmlWebpackPlugin_0-1": {
-          "name": "HtmlWebpackPlugin_0-1",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "HtmlWebpackPlugin_0-1": {
-          "name": "HtmlWebpackPlugin_0-1",
-          "chunks": [
-            "HtmlWebpackPlugin_0-1"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    }
-  ]
+  "children": []
 }
