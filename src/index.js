@@ -1,37 +1,27 @@
 import './styles/index.scss';
-import addItems from './modules/AddTask.js';
-import { newTasks } from './modules/DisplayTask.js';
 
-import { userInput, taskField } from './modules/TaskList.js';
-import { fetchItems, store } from './modules/LocalStorage.js';
+import Algos from './modules/DisplayTask.js';
 
-userInput.addEventListener('keypress', (event) => {
-  if (event.key === 'Enter') {
-    if (userInput.value === '') {
-      event.preventDefault();
-    } else {
-      const todo = addItems(event);
-      newTasks.addItems(todo);
-      newTasks.initialize();
-      store();
-      newTasks.displayTask();
-    }
-  }
+const mainForm = document.getElementById('main-form');
+const editForm = document.getElementById('edit-form');
+const userInput = document.getElementById('task-input');
+const editInput = document.getElementById('edit-input');
+
+mainForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  Algos.addTodoItems(userInput.value);
+  userInput.value = '';
 });
 
-taskField.addEventListener('keypress', (e) => {
-  if (e.target.className === 'todo-task' && e.key === 'Enter') {
-    if (e.target.textContent) {
-      e.preventDefault();
-      newTasks.updateTask(e.target.textContent, e.target.parentElement.id);
-      store();
-    } else {
-      e.preventDefault();
-    }
-  }
+editForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const id = Number(editInput.getAttribute('id'));
+  Algos.updateTask(editInput.value, id);
+  editInput.value = '';
+  document.getElementById('main-form').style.display = 'block';
+  editForm.style.display = 'none';
 });
 
-window.addEventListener('load', () => {
-  fetchItems();
-  newTasks.displayTask();
+window.addEventListener('DOMContentLoaded', () => {
+  Algos.displayTodos();
 });

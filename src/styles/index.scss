@@ -76,6 +76,10 @@ form {
   width: 100%;
 }
 
+#edit-form {
+  display: none;
+}
+
 .form-input {
   background: #efeded;
   border-radius: 10px;
@@ -93,8 +97,9 @@ form {
 
 .btn-holder {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 3rem;
 }
 
 #addBtn {
@@ -103,7 +108,7 @@ form {
   border-radius: 20px;
   outline: none;
   border: none;
-  background: linear-gradient(45deg, rgb(193, 120, 120), rgb(88, 88, 109));
+  background: linear-gradient(45deg, rgb(208, 52, 52), rgb(85, 85, 189));
 }
 
 #addBtn:hover {
@@ -140,13 +145,48 @@ form {
 
 .todo-content {
   display: flex;
-  flex: 1;
   gap: 1rem;
   padding: 0 3rem;
 }
 
+.task-content {
+  display: flex;
+  padding: 0 3rem;
+  gap: 1rem;
+}
+
 .todo-icons {
+  display: flex;
+  gap: 0.5rem;
   padding-right: 3rem;
+  outline: none;
+  border: none;
+}
+
+.edit-Icon,
+.trash-can {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.trash-can {
+  color: #4b1f38 !important;
+}
+
+.trash-can:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.delete-btn {
+  color: #4b1f38 !important;
+  display: flex;
+}
+
+.delete-btn:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 .todo-output {

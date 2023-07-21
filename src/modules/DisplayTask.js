@@ -1,43 +1,154 @@
-import { taskField } from './TaskList.js';
+import Tasks from './TaskList.js';
 import 'boxicons';
 
-class InputTasks {
-  constructor() {
-    this.tasks = [];
+export default class Algos {
+  static storeInLS = (todo) => {
+    const task = JSON.stringify(todo);
+    localStorage.setItem('todoList', task);
+  };
+
+  static fetchFromLS = () => {
+    let todoList;
+
+    if (JSON.parse(localStorage.getItem('todoList')) === null) {
+      todoList = [];
+    } else {
+      todoList = JSON.parse(localStorage.getItem('todoList'));
+    }
+
+    return todoList;
+  };
+
+  static assignIndex = (todoList) => {
+    todoList.forEach((todo, i) => {
+      todo.index = i + 1;
+    });
   }
 
-    initialize = () => {
-      taskField.innerHTML = '';
-    };
+  static deleteTodo = (id) => {
+    let todoList = this.fetchFromLS();
+    const deletedTodo = todoList[id];
 
-    addItems = (task) => {
-      this.tasks.push(task);
-    }
+    todoList = todoList.filter((item) => item !== deletedTodo);
 
-    updateTask = (descp, id) => {
-      this.tasks[id].description = descp;
-    };
+    this.assignIndex(todoList);
+    this.storeInLS(todoList);
+  };
 
-    displayTask = () => {
-      this.tasks.forEach((task, idx) => {
-        const todo = document.createElement('li');
-        todo.classList.add('todo-item');
-        todo.id = idx;
-        todo.innerHTML = `
-                <article class="todo-content">
-                    <input type="checkbox" id="task-${task.idx}" class="todo-output" name="task-${task.idx}" ${task.completed ? 'checked' : 'unchecked'}>
-                    <p contenteditable="true" class="todo-task">${task.description}</p>
-                </article>
-                <article class="todo-icons">
-                    <box-icon name='dots-vertical'></box-icon>
-                </article>
-            
-            `;
-        taskField.appendChild(todo);
-      });
-    }
+  static updateTask = (descp, id) => {
+    const todoList = this.fetchFromLS();
+    const taskUpdate = todoList[id];
+
+    todoList.forEach((item) => {
+      if (item === taskUpdate) {
+        item.description = descp;
+      }
+    });
+
+    this.storeInLS(todoList);
+    this.displayTodos();
+  };
+
+  static addTask = () => {
+    document.querySelectorAll('.trash-can').forEach((btn) => btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      let id;
+      if (btn.id > 0) {
+        id = btn.id - 1;
+      } else {
+        id = 0;
+      }
+      this.deleteTodo(id);
+      this.displayTodos();
+    }));
+  }
+
+  static editTodo = (id) => {
+    const todoList = this.fetchFromLS();
+    const editedTodo = todoList[id];
+
+    document.getElementById('main-form').style.display = 'none';
+    const taskEdit = document.querySelector('.edit-input');
+    taskEdit.value = editedTodo.description;
+    taskEdit.setAttribute('id', id);
+    document.querySelector('.edit-Todo-Form').style.display = 'block';
+    taskEdit.focus();
+  }
+
+  static editTodoBtn = () => {
+    document.querySelectorAll('.edit-Icon').forEach((btn) => btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      let id;
+      if (btn.id > 0) {
+        id = btn.id - 1;
+      } else {
+        id = 0;
+      }
+      this.editTodo(id);
+    }));
+  }
+
+  static editTodoClick = () => {
+    document.querySelectorAll('.todoTask').forEach((todo) => todo.addEventListener('dblclick', (e) => {
+      e.preventDefault();
+      let id;
+      if (todo.id > 0) {
+        id = todo.id - 1;
+      } else {
+        id = 0;
+      }
+      this.editTodo(id);
+    }));
+  }
+
+  static CreateTodo = ({ description, index }, currentStatus, iscompleted) => {
+    const todo = document.createElement('li');
+    todo.className = 'todo-item';
+    todo.innerHTML = `
+        <article class="task-content">
+          <input type="checkbox" id="${index}" name="" value="" class="checkbox" ${currentStatus}>
+          <h3 id="${index}" class="todoTask ${iscompleted}">${description}</h3>
+        </article>
+        <article class="todo-icons">
+          <button class="edit-Icon" id="${index}"><box-icon name='edit' class='delete-btn'></box-icon></button>
+          <button class="trash-can" id="${index}"><box-icon type='solid' name='message-x' class='edit-btn'></box-icon></button>
+        </article>
+        `;
+
+    return todo;
+  }
+
+  static displayTodos = () => {
+    const todoList = this.fetchFromLS();
+    const todoCont = document.getElementById('todo-list-items');
+    todoCont.innerHTML = '';
+    todoList.forEach((item) => {
+      let currentStatus;
+      let iscompleted;
+      if (item.completed === true) {
+        currentStatus = 'checked';
+        iscompleted = 'completed';
+      } else {
+        currentStatus = '';
+        iscompleted = '';
+      }
+      todoCont.append(this.CreateTodo(item, currentStatus, iscompleted));
+    });
+    this.addTask();
+    this.editTodoBtn();
+    this.editTodoClick();
+
+    const event = new Event('updatedList');
+    document.dispatchEvent(event);
+  }
+
+  static addTodoItems = (description) => {
+    const todoList = this.fetchFromLS();
+    const index = todoList.length + 1;
+    const newTask = new Tasks(description, index);
+
+    todoList.push(newTask);
+    this.storeInLS(todoList);
+    this.displayTodos();
+  }
 }
-
-export const newTasks = new InputTasks();
-
-export const { addItems } = new InputTasks();
