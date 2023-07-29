@@ -59,6 +59,7 @@ module.exports = {
       title: 'webpack App',
       filename: 'index.html',
       template: 'src/template.html',
+      inject: 'body',
     }),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',

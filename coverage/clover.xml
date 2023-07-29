@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1690694561870" clover="3.2.0">
+  <project timestamp="1690694561870" name="All files">
+    <metrics statements="34" coveredstatements="31" conditionals="10" coveredconditionals="6" methods="13" coveredmethods="10" elements="57" coveredelements="47" complexity="0" loc="34" ncloc="34" packages="2" files="6" classes="6"/>
+    <package name="TestDocs">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="checkData.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\TestDocs\checkData.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules">
+      <metrics statements="28" coveredstatements="25" conditionals="8" coveredconditionals="5" methods="11" coveredmethods="8"/>
+      <file name="DeleteCompleted.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\modules\DeleteCompleted.js">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="DeleteTask.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\modules\DeleteTask.js">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="DisplayTask.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\modules\DisplayTask.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="FetchFromLs.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\modules\FetchFromLs.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="10" type="stmt"/>
+      </file>
+      <file name="editTask.js" path="F:\Microverse\Pair Programming\Webpack-Project\src\modules\editTask.js">
+        <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
