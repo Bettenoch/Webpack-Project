@@ -120,8 +120,7 @@ export default class Algos {
 
   static displayTodos = () => {
     const todoList = this.fetchFromLS();
-    const todoCont = document.getElementById('todo-list-items');
-    todoCont.innerHTML = '';
+    document.getElementById('todo-list-items').innerHTML = '';
     todoList.forEach((item) => {
       let currentStatus;
       let iscompleted;
@@ -132,7 +131,7 @@ export default class Algos {
         currentStatus = '';
         iscompleted = '';
       }
-      todoCont.append(this.CreateTodo(item, currentStatus, iscompleted));
+      document.getElementById('todo-list-items').append(this.CreateTodo(item, currentStatus, iscompleted));
     });
     this.addTask();
     this.editTodoBtn();
