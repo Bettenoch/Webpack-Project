@@ -3,7 +3,6 @@ import fetchTodos from '../modules/FetchFromLs.js';
 import addItems from '../modules/DisplayTask.js';
 import removeTodo from '../modules/DeleteTask.js';
 import { currVal, editTask } from '../modules/editTask.js';
-// import isChecked from '../modules/CheckTodo.js';
 import clearChecked from '../modules/DeleteCompleted.js';
 import checkboxTest from './checkData.js';
 
@@ -23,9 +22,7 @@ const localStorageMock = (() => {
   };
 })();
 
-// Mock DOM elements
-
-describe('test my functions', () => {
+describe('test todo list app method', () => {
   test('should add a todo to the list', () => {
     addItems('Watch Lakers Game');
     const data = fetchTodos();
