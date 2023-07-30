@@ -4,8 +4,26 @@ import addItems from '../modules/DisplayTask.js';
 // import removeTodo from '../modules/DeleteTask.js';
 import { currVal, editTask } from '../modules/editTask.js';
 // import isChecked from '../modules/CheckTodo.js';
-// import clearChecked from '../modules/DeleteCompleted.js';
+import clearChecked from '../modules/DeleteCompleted.js';
 import checkboxTest from './checkData.js';
+
+const localStorageMock = (() => {
+  let store = {};
+  return {
+    getItem: (key) => store[key],
+    setItem: (key, value) => {
+      store[key] = value.toString();
+    },
+    clear: () => {
+      store = {};
+    },
+    removeItem: (key) => {
+      delete store[key];
+    },
+  };
+})();
+
+// Mock DOM elements
 
 describe('test my functions', () => {
   test('should add a todo to the list', () => {
@@ -31,5 +49,11 @@ describe('test my functions', () => {
     checkboxTest(description, altStat);
     const data = JSON.parse(localStorage.getItem('tasks'));
     expect(data[0].completed).toBe(altStat);
+    localStorageMock.clear();
+  });
+  test('should remove checked todo', () => {
+    clearChecked();
+    const data = fetchTodos();
+    expect(data.length).toBe(0);
   });
 });
