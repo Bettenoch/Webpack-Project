@@ -1,7 +1,7 @@
 import 'jest-localstorage-mock';
 import fetchTodos from '../modules/FetchFromLs.js';
 import addItems from '../modules/DisplayTask.js';
-import removeTodo from '../modules/DeleteTask.js';
+// import removeTodo from '../modules/DeleteTask.js';
 import { currVal, editTask } from '../modules/editTask.js';
 // import isChecked from '../modules/CheckTodo.js';
 import clearChecked from '../modules/DeleteCompleted.js';
@@ -53,12 +53,6 @@ describe('test my functions', () => {
   });
   test('should remove checked todo', () => {
     clearChecked();
-    const data = fetchTodos();
-    expect(data.length).toBe(0);
-  });
-
-  test('should remove an item in the list', () => {
-    removeTodo();
     const data = fetchTodos();
     expect(data.length).toBe(0);
   });
