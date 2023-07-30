@@ -7,11 +7,12 @@
   "description": "Project using webpack",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage --watch",
     "build": "webpack",
     "dev": "webpack serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
