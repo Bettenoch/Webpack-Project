@@ -1,3 +1,5 @@
+import 'boxicons';
+
 const todos = (todo) => {
   const taskList = document.getElementById('todo-list-items');
   const parentContainer = document.createElement('div');
@@ -10,8 +12,7 @@ const todos = (todo) => {
             <input type="checkbox" onclick="checkTask(this)" class="check" ${todo.completed ? 'checked' : ''}>
             <input type="text" value="${todo.description}" class="input ${todo.completed ? 'completed' : ''}" onfocus="getCurrentTask(this)"  onblur="editTodo(this)">
         </div>
-    
-        <img class="remove" src="../assets/trashcan.png" alt="reload">
+        <box-icon class="remove" name='message-rounded-x'></box-icon>
      
     </article>
     <hr>
