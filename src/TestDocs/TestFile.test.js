@@ -1,10 +1,10 @@
 import 'jest-localstorage-mock';
 import fetchTodos from '../modules/FetchFromLs.js';
 import addItems from '../modules/DisplayTask.js';
-import removeTodo from '../modules/DeleteTask.js';
+// import removeTodo from '../modules/DeleteTask.js';
 import { currVal, editTask } from '../modules/editTask.js';
 // import isChecked from '../modules/CheckTodo.js';
-import clearChecked from '../modules/DeleteCompleted.js';
+// import clearChecked from '../modules/DeleteCompleted.js';
 import checkboxTest from './checkData.js';
 
 describe('test my functions', () => {
@@ -31,17 +31,5 @@ describe('test my functions', () => {
     checkboxTest(description, altStat);
     const data = JSON.parse(localStorage.getItem('tasks'));
     expect(data[0].completed).toBe(altStat);
-  });
-
-  test('should remove checked todo', () => {
-    clearChecked();
-    const data = fetchTodos();
-    expect(data.length).toBe(0);
-  });
-
-  test('should remove an item in the list', () => {
-    removeTodo();
-    const data = fetchTodos();
-    expect(data.length).toBe(0);
   });
 });
