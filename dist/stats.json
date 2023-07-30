@@ -1,8 +1,8 @@
 {
   "hash": "13976397a9b4497ec9f7",
   "version": "5.88.1",
-  "time": 17853,
-  "builtAt": 1690693379492,
+  "time": 31615,
+  "builtAt": 1690694737184,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Pair Programming\\Webpack-Project\\dist",
   "assetsByChunkName": {
@@ -4602,8 +4602,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "4d0ceb1022ece9e47365",
       "version": "5.88.1",
-      "time": 462,
-      "builtAt": 1690693362500,
+      "time": 559,
+      "builtAt": 1690694706732,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Pair Programming\\Webpack-Project\\dist",
       "assetsByChunkName": {},
